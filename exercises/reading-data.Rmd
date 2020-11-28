@@ -1,0 +1,40 @@
+---
+title: "Reading Data"
+output: learnr::tutorial
+runtime: shiny_prerendered
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+knitr::opts_chunk$set(echo = FALSE, exercise=TRUE, warning=FALSE)
+```
+
+
+## Reading Data 
+
+First, read [Chapter 8](https://ui.josiahparry.com/reading-data.html) of Urban Informatics Toolkit.
+
+To read data we will use the package readr from the tidyverse. 
+
+We provide the file path 
+
+### Reading CSVs
+
+```{r reading-csv, message=FALSE}
+library(tidyverse)
+
+read_csv("data/311-sample.csv")
+```
+
+
+csv
+excel 
+tsv
+
+previewing data 
+
+glimpse
+dim
+nrow
+ncol
+skimr::skim()

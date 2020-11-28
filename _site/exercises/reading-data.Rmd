@@ -1,0 +1,10 @@
+---
+title: "Reading Data"
+output: learnr::tutorial
+runtime: shiny_prerendered
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+knitr::opts_chunk$set(echo = FALSE, exercise=TRUE, warning=FALSE)
+```
