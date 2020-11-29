@@ -13,3 +13,128 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
+
+## Week 0 - Welcome
+
+Get everything set up and get familiar. 
+
+- [UITK - The Basics](https://ui.josiahparry.com/the-basics)  
+  - RStudio, IDE
+  - Installing R & RStudio
+  - R projects
+  
+## Week 1
+
+### Assignment: Telling A Data Story
+
+For this week's data assignment, briefly describe the structure of either your whole data set or of some meaningful subset (number of rows, columns, names of relevant variables).
+
+Describe at least three cases (rows) from this set/subset using the information contained in the variables you see as relevant.
+  
+  - What have you learned from these cases individually, and from the differences between them?
+  - How do they illustrate what we can learn from these data more generally?
+  - Can you infer things about the cases that are not explicitly in the data?
+
+### Skills needed:
+
+- read_csv()
+- select()
+- filter()
+- arrange()
+- count()
+- janitor::tabyl()
+- summary() / skimr::skim()
+
+<!--
+### Readings 
+
+- [UITK - R as a calculator](https://ui.josiahparry.com/r-as-a-calculator.html)
+- [UITK - Reading Data](https://ui.josiahparry.com/reading-data.html)
+- [UITK - Exploratory Visual Analysis](https://ui.josiahparry.com/exploratory-visual-analysis.html)
+- [UITK - General Data Manipulation](https://ui.josiahparry.com/general-data-manipulation.html)
+--> 
+
+## Week 2
+
+
+### Assignment: Pulse of the City 
+
+For this week's data assignment, briefly describe the structure of either your whole data set or of some meaningful subset (number of rows, columns, names of relevant variables).
+
+- Generate at least three interesting pieces of information or patterns from your data set and describe the insights they provide regarding the dynamics of the city. These can be communicated as numbers, graphs, or both and should convey what you see as the overarching information contained in the data set.
+- Find at least two things in your data set that are strange, not make sense, or are contrary to your expectations.
+
+- [UITK - That's too much data](https://ui.josiahparry.com/thats-too-much-data.html)
+- [UITK - The %>%](https://ui.josiahparry.com/the-pipe.html)
+- [UITK - Creating New Measures](https://ui.josiahparry.com/creating-new-measures.html)
+- [UITK - Summarizing Data]
+
+
+## Week 3
+
+### Assignment: Revealing Knowledge
+
+- Create at least three new variables, each of which must either;
+  - make some angle of your data's content more interpretable,
+  - fix some issue in the data. 
+  - Please make sure to explain why these variables are useful.
+- Describe the contents of these variables using analysis and visualization.
+
+
+## Week 4
+
+### Assignment: Proposing New Measures
+
+For this week's data assignment, propose at least one latent construct that you would like to measure with your data set and the geographic level at which you would want to measure it.
+
+In addition, describe how this construct is interesting and at least one manifest variable for measuring it. Use the latent construct modeling notation from this week's lesson presentation to bring it across.
+
+Note: Your manifest variable can be an idea at this point and we can figure out how to code it in R in the coming weeks. 
+
+## Week 5
+
+No assignment
+
+## Week 6
+
+### Assignment: Building Latent Constructs
+
+- Be sure to describe why the construct is interesting and how the specific calculations you are using capture it.
+- As you analyze the content of these new variables, be sure to include at least one dot plot that shows the relationships between two variables at the aggregate level.
+
+## Week 7
+
+### Assignment: Making Maps
+
+Continue working on the development of your latent constructs and any related unit-level variables.
+  - Create a map of at least one of these variables.
+  - Make sure to use the map as a way to reveal the distribution of this variable across the city and to further our understanding of the urban landscape. 
+
+## Week
+
+### Assignment: Correlation and Regression
+
+Run at least one correlation and one regression on your data, and describe the results. The two (or more) analyses should inform each other in some way (e.g., the regression further tests the correlation).
+
+Include at least one figure representing the relationship(s). 
+
+## Week
+
+### Assignment: Comparing Groups
+
+- Run at least one t-test and one ANOVA utilizing your data and describe the results. The two (or more) analyses should inform each other in some way.
+ 
+- Include at least one figure representing the relationship(s).
+
+
+
+By the first assignment students need to know:
+
+- read_csv()
+- count()
+- janitor::tabyl()
+- select()
+- filter()
+- arrange()
+- group_by()
+- summarize()

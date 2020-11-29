@@ -1,6 +1,6 @@
 ---
 title: "R as a calculator"
-output: distill::distill_article
+output: learnr::tutorial
 runtime: shiny_prerendered
 ---
 
