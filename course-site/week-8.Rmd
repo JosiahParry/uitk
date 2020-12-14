@@ -1,0 +1,21 @@
+---
+title: "Week 8"
+
+---
+
+## Overview:
+
+As we conclude Unit 2 it is time again to reflect a bit on our use of administrative data. First, as with last semester, we will use workshops to ensure that the measures that we are building are in fact interesting, meaningful, and potentially useful for research, policy, and practice. This will culminate in the completion of the second midterm, which will report these measures and their content. We will also read Danah Boyd and Kate Crawford’s “Six Provocations for Big Data,” which further forces us to consider the philosophical and ethical challenges that accompany this work.
+
+## Learning objectives:
+
+- Assess the philosophical challenges of working with modern digital data
+
+## Substantive Readings 
+
+- [Boyd & Crawford _2011_ Six provocations for big data](https://northeastern.instructure.com/courses/65223/files/6696695/download?wrap=1)
+
+### Prompt 
+
+- How do you find Boyd & Crawford’s ‘provocations’ useful for the field of urban informatics? 
+- Are there particular issues that you think this field does particularly well with and others where it needs to mature?

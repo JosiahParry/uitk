@@ -1,0 +1,36 @@
+---
+title: "Week 12 - The Future of Urban Informatics"
+---
+
+# Overview
+
+We have nearly reached the end of the semester and it is about time to bring all the hard work we have done to a final set of products. Between this week and next we will bring our efforts to their conclusion. This week we will complete our final city exploration--an in-person urban hike--and we will conduct workshops to brainstorm about the Final Paper, Presentation, and Database, which will be due at the end of next week.
+
+In parallel, we will read Anthony Townsend’s summary of “The New Urban Science” and the programs that are pursuing it. The article will serve as a jumping off point so that we can discuss our own thoughts on the overall nature of the field is and what the future holds for it. 
+
+## Learning Objectives
+
+
+- Characterize the field of urban informatics and its future
+  - Skill: Describe the organization of the field of urban informatics in terms of its themes and - programs
+  - Skill: Identify the themes that you think are facing the field of urban informatics
+- Submit 3rd City Exploration: Urban Hike assignment.
+
+## Substantive Readings 
+
+One Last Reading...
+
+- [Townsend _2015_ Making sense of the new urban science](https://northeastern.instructure.com/courses/23734/files/5409841/download?wrap=1)
+
+...And a Few Websites
+
+- [Data for Black Lives](http://db4l.org/)
+- [Detroit Community Technology Project](https://detroitcommunitytech.org/)
+- [Vital Village](https://www.vitalvillage.org/)
+- [MetroLab Network's Innovation of the Month](https://metrolabnetwork.org/projects/innovation-of-the-month/)
+
+### Prompt
+
+- Do you agree or disagree with Townsend's assessment of the field? How so?
+- How do these newer efforts reinforce or shift the focus of the field? 
+

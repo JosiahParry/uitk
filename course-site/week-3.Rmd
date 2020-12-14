@@ -1,0 +1,55 @@
+---
+title: "Week 3 - Revealing Knowledge"
+---
+
+## Overview
+
+Digital data are rich in content and detail, but they do not automatically become knowledge. It is up to the analyst to revise variables or to create new ones that makes this knowledge more accessible, that it might be leveraged for research, policy or practice. In this module, you will create new or revised variables in your own data set that facilitate subsequent analysis. This might include “fixing” or omitting erroneous cases, reorganizing to make an existing variable more tractable, or combining information from multiple variables to make critical information more directly accessible. We will also look at the world of “Smart Cities,” where private corporations like Google Sidewalk Labs have promised to leverage data to create technologies and programs that make urban systems more efficient and responsive—as well as some critics who make clear that making cities smart is about more than just data. Finally, this week will feature the first City Exploration assignment in which you will virtually visit a neighborhood of your choice in order to determine whether the patterns that you are seeing in your data set mean what you think they do about what is actually going on in a neighborhood.
+
+### Learning objectives:
+
+Learning objectives for this module are to:
+
+- Planning out the preparation of data for analysis by cleaning and creating more useful variables.
+- Create new variables that modify an existing numeric variable or are combinations of multiple numeric variables.
+- Create new variables based on existing string (i.e., character) variables.
+- Create and manipulate date variables with package lubridate.
+- Visualize the relationships between multiple variables.
+- Evaluate the private corporation approach to "smart cities"
+- Evaluate the validity of naturally-occurring data with real-world events and conditions.
+
+## Substantive Readings 
+
+- [LinkNYC](https://www.link.nyc/)
+- [Sidewalk Labs](https://www.sidewalklabs.com/)
+- [Sidewalk Toronto](https://www.sidewalktoronto.ca/)
+- ["Smart City Playbook" by the Mayor's Office of Urban Mechanics in Boston](https://monum.github.io/playbook/)
+- ["Google’s Guinea-Pig City" by Molly Sauter, The Atlantic](https://www.theatlantic.com/technology/archive/2018/02/googles-guinea-pig-city/552932/)
+
+
+**Prompt**
+
+- How would you describe the ‘smart cities’ approach to urban big data and its critiques?
+- What is your opinion of how data is being used and interpreted in this context?
+
+## Technical Readings
+
+- Lander: Chapters 3, 7, 15.1
+- [Creating New Measures](https://ui.josiahparry.com/creating-new-measures.html)
+- [Grammar of layered graphics](https://ui.josiahparry.com/layered-i.html)
+- [Visualizing Trends and Relationships I](https://ui.josiahparry.com/visualizing-trends-and-relationships.html)
+- [Visualizing Trends and Relationships II](https://ui.josiahparry.com/grammer-of-layered-graphics-ii.html)
+
+## Data Assignment
+
+- Create at least three new variables, each of which must either;
+    - make some angle of your data's content more interpretable,
+    - fix some issue in the data.
+    - Please make sure to explain why these variables are useful.
+- Describe the contents of these variables using analysis and visualization.
+
+**Skills needed**:
+
+-   mutate()
+-   ifelse()
+-   case_when()

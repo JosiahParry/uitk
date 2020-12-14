@@ -1,0 +1,39 @@
+---
+title: "Week 9 - Beyond Measurement"
+---
+
+## Overview
+
+The third and final unit of the course will take us beyond measurement to “discovery”—how can we use the tools of statistics to better understand the dynamics of the urban landscape? This week we will begin with an overview of inferential statistics and the introduction of correlation and regression.
+
+In this module, you will utilize correlation and regression to analyze the relationship of two or more measures across Boston.
+
+We will also take a look at the Santa Fe's Institute's use of correlation and regression to develop universal models of urban scaling. 
+
+## Learning Objectives:
+
+- Describe the premises of inferential statistics
+- Conduct correlations to describe the strength of relationship between two variables
+- Conduct regressions to predict one variable’s distribution in terms of two or more independent - variables
+- Represent the linear relationships between variables
+- Evaluate the implications of a universal scaling law for cities
+
+## Substantive Readings 
+
+- [Bettencourt et al _2010_ Urban scaling and its deviations Revealing the structure of wealth, innovation and crime across cities](https://northeastern.instructure.com/courses/65223/files/6696725/download?wrap=1)
+- [Santa Fe Institute’s Program on Cities, Scaling, and Sustainability](https://www.santafe.edu/research/projects/cities-scaling-sustainability)
+
+### Prompt
+
+- "What is it that Bettencourt et al. claim to have discovered? How do you interpret that?"
+
+
+## Technical Readings
+
+- Lander: Chapter 15.2 
+- [UITK - Statistics](https://ui.josiahparry.com/statistics.html)
+
+## Data Assignment
+
+- Run at least one correlation and one regression on your data, and describe the results. The two (or more) analyses should inform each other in some way (e.g., the regression further tests the correlation).
+- Include at least one figure representing the relationship(s).

@@ -1,0 +1,48 @@
+name: "."
+title: "PPUA 5262 Big Data For Cities"
+exclude:
+description: |
+  PPUA 5262 Big Data For Cities
+output_dir: "_site"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    # - text: "About"
+    #   href: about.html
+    - text: "Agenda"
+      menu:
+        - text: "Week 0 - Welcome!"
+          href: week-0.html
+        - text: "Week 1"
+          href: week-1.html
+        - text: "Week 2"
+          href: week-2.html
+        - text: "Week 3"
+          href: week-3.html
+        - text: "Week 4"
+          href: week-4.html
+        - text: "Week 5"
+          href: week-5.html
+        - text: "Week 6"
+          href: week-6.html
+        - text: "Week 7"
+          href: week-7.html
+        - text: "Week 8"
+          href: week-7.html
+        - text: "Week 8"
+          href: week-8.html
+        - text: "Week 9"
+          href: week-9.html
+        - text: "Week 10"
+          href: week-10.html
+        - text: "Week 11"
+          href: week-11.html
+        - text: "Week 12"
+          href: week-12.html
+    - text: "Syllabus"
+      href: syllabus.html
+
+output:
+  distill::distill_article:
+    css: sppua5262.css

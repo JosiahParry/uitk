@@ -1,0 +1,32 @@
+---
+title: "Week 7 - Mapping the City"
+---
+
+## Overview:
+
+Data describing the city are special because they all reference the same set of buildings, streets, and neighborhoods. As we saw last week, this enables us to easily link measures that describe the same units. It also means that these data are spatial, and can be communicated and examined through maps. In this module, you will create maps that illustrate the distribution of one or more measures across the urban landscape. We will also learn about the Bartlett Centre for Advanced Spatial Analysis at University College London, one of the original urban informatics research centers, and their efforts to map the city.
+
+## Learning objectives:
+
+- Describe the differences between spatial data and traditional tabular data
+- Utilize spatial data files in R.
+- Create chloropleths that map the distribution of a metric across the city using ggplot2 and ggmap
+- Process and visualize spatial data in R in a variety of additional ways.
+- Trace the origins of spatial analysis in urban informatics.
+- Connect the content of administrative data with real-world events and conditions.
+
+## Substantive Readings 
+
+- [Rogers (2013). "John Snow's data journalism: the cholera map that changed the world."](https://www.theguardian.com/news/datablog/2013/mar/15/john-snow-cholera-map)
+- [Palominos & Smith (2020). "Identifying and Characterising Active Travel Corridors for London in Response to COVID-19 Using Shortest Path and Streetspace Analysis."](https://www.ucl.ac.uk/bartlett/casa/sites/bartlett/files/casa_working_paper_222_2.pdf)
+- [The Bartlett Centre for Advanced Spatial Analysis](http://www.bartlett.ucl.ac.uk/casa)
+
+## Technical Readings
+
+- [UITK - Spatial Analysis](https://ui.josiahparry.com/spatial-analysis.html)
+
+## Data Assignment 
+
+- Continue working on the development of your latent constructs and any related unit-level variables. 
+- Create a map of at least one of these variables. 
+- Make sure to use the map as a way to reveal the distribution of this variable across the city and to further our understanding of the urban landscape.

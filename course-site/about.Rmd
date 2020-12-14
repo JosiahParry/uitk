@@ -1,0 +1,9 @@
+---
+title: "About the course"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+The past decade has seen the rapid proliferation of large-scale digital data sets, from cell phone records to social media posts, from calls for government services to digitized historical records. With their unprecedented volume and detail, these new resources have opened up a window through which we can closely examine the behavioral and social dynamics of everyday life, and nowhere is this truer than in urban areas, which have the greatest density of both people and technology. This has given rise to urban informatics, and a renewed opportunity to understand the city, its people, and its neighborhoods, and to develop new policies and programs that improve urban life. Big Data for Cities takes an experiential approach that enables students to contribute to this young field. Given unprecedented times, we will apply our newfound skills to the urgent question of the shifting urban landscape in the age of COVID-19.

@@ -1,0 +1,26 @@
+---
+title: "Welcome!"
+css: "sppua5262.css"
+---
+
+
+Hello and welcome to Big Data for Cities! This course is intended to introduce you to the field of urban informatics. Throughout this course we will expound upon the intersection of big data and the city with an emphasis on the importance of administrative data. 
+
+In recent years the city has seen a vast proliferation of data whether it be from cell phone records to social media posts, calls for government services, or to digitized historical records. These new resources present a clear opportunity for research, policy, and practice. Gleaning insights from these data require the use of modern statistical software, a nontrivial task! A further challenge is the rigorous standards needed to interpret the data collected. These skills form the foundation of the emerging field of urban informatics and therefore the main learning objectives of this course.
+
+Throughout this course we will use the Statistical Programming Language R for all of our data related tasks. Throughout this course we will utilize the books [R for Everyone](https://www.amazon.com/Everyone-Advanced-Analytics-Graphics-Addison-Wesley/dp/013454692X/ref=as_li_ss_tl?ie=UTF8&linkCode=sl1&tag=jareland08-20&linkId=8dd2591a6d4ff629f1afb6015d3d9095), [R for Data Science](https://r4ds.had.co.nz), and [The Urban Informatics Toolkit](https://ui.josiahparry.com) (UITK).
+
+To prepare for the course, I would strongly suggest you read the below suggested readings. Additionally, please ensure you do your course preparation listed below prior to next week. All in all, it should take you about 30 minutes. `r emo::ji("smiling face with smiling eyes")`
+
+## Suggested Readings 
+
+- [Utility and Danger of Big Data ](https://ui.josiahparry.com/the-utility-and-danger-of-big-data.html)
+- [Data in the Municipal Context](https://ui.josiahparry.com/data-in-the-municipal-context.html)
+- [Schools of Urban Informatics](https://ui.josiahparry.com/approaches-to-and-schools-of-urban-informatics.html)
+
+## Course Preparation
+
+- Read [UITK Ch. 2](https://ui.josiahparry.com/the-basics.html): This chapter will introduce you to R, and the RStudio IDE. 
+- [Install R](https://cran.r-project.org/)
+- [Install RStudio](https://rstudio.com/products/rstudio/download/#download)
+- [Pre-course survey](tbd)

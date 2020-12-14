@@ -1,0 +1,21 @@
+---
+title: "Week 4 - Workshop"
+---
+
+## Overview:
+
+The great Sherlock Holmes once said, “It is a capital mistake to theorize before one has data.” On the other hand, an old saying among scientists is that “There can be no data without theory,” because one cannot generate information without first asking questions. This symbiosis between theory and data has been critical to the work we have done thus far. As we have seen, extracting information from a data set requires knowing what we want to learn and making a number of decisions to reveal it through analyses and visualizations, and those analyses and visualizations then stimulate new questions. As we spend this week preparing for the midterm, we will be considering this question of what we can learn from our data set, and how we want to go about exposing it and communicating it through a Read-Me Document. In addition, we will read two essays about whether data "speak for themselves," or if there is still a need for theory in guiding data science.
+
+### Learning objectives:
+
+- Assess the role of theory in data science.
+- Distinguish between data- and theory-driven approaches.
+
+## Substantive Readings 
+
+- ["The End of Theory: The Data Deluge Makes the Scientific Method Obsolete," by Chris Anderson, Wired.](https://www.wired.com/2008/06/pb-theory/)
+- ["The End of Theory in Science?" by Massimo Pigliucci, EMBO Reports.](https://northeastern.instructure.com/courses/65223/files/6696415/download?wrap=1)
+
+### Prompt
+
+- What’s your take on Anderson and Pigliucci’s debate about the role of theory in data science?

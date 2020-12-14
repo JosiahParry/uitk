@@ -1,0 +1,39 @@
+---
+title: "Week 10 - Modeling the City"
+---
+
+# Overview
+
+This module picks up right where the last module left off, extending our toolbox for inferential statistics with two tests that compare differences across groups—the t-test and ANOVA—and using these to examine whether custodianship differs across different types of neighborhoods.
+
+You will also utilize these two tools to further analyze the distribution of your own measures across Boston.
+ 
+We will examine how projects in New York and Chicago are using statistics to model the city as a “math equation.” 
+
+## Learning Objectives
+
+- Compare differences in one or more variables between two groups with t-tests
+- Compare differences in one or more variables between three or more groups
+- Represent differences between groups in ggplot2
+- Articulate the opportunities and limits for inferential statistics in the study of the city
+
+## Substantive Readings 
+
+- [Life in the City is Essentially One Giant Math Problem by Jerry Alder, Smithsonian Magazine](http://www.smithsonianmag.com/innovation/life-in-the-city-is-essentially-one-giant-math-problem-37759041/?c=y?no-ist&no-ist)
+- [Hudson Yards: The First Quantified Community](http://cusp.nyu.edu/press-release/nyu-cusp-related-companies-oxford-properties-group-team-create-first-quantified-community-united-states-hudson-yards/)
+- [University of Chicago to Serve as Test Bed for Array of Things](http://www.urbanccd.org/news/2015/7/15/university-of-chicago-to-serve-as-test-bed-for-array-of-things-project)
+- [Center for Urban Science and Progress](http://cusp.nyu.edu/)
+- [Urban Center for Computation and Data](https://urbanccd.org/)
+
+### Prompt
+
+- "How are the Chicago and New York approaches to urban big data similar? How are they different? Do you prefer one style over the other? If so, why or why not?"
+
+## Technical Readings 
+
+- Lander: Chapter 15.3
+
+## Data Assignment
+
+- Run at least one t-test and one ANOVA utilizing your data and describe the results. The two (or more) analyses should inform each other in some way.
+- Include at least one figure representing the relationship(s).

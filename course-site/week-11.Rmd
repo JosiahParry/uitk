@@ -1,0 +1,26 @@
+---
+title: "Week 11 - Networks and the City"
+---
+
+# Overview
+
+Over the course of the semester we have developed a variety of data science skills and a considerable familiarity with building permits and their implications across the greater Boston region. This module there is a pressing job to do.
+This week, we are going to capitalize on the expertise we have developed with municipal administrative records to respond to a challenge posed by a visiting public sector partner. Much like real-world jobs in urban informatics, we will have a limited amount of time to generate a set of actionable insights and recommendations.
+
+## Learning Objectives
+
+- Respond to a time-sensitive request for a targeted analysis
+  - Skill: Identify how the data to which you have access can help inform the concern at hand
+  - Skill: Execute and communicate the results of your analysis
+- Describe the potential of network science for the study of the city
+  - Skill: Define the role of “nodes” and “links” in the structure of a network
+  - Skill: Identify the various classes of question that a network science approach might answer
+
+## Substantive Readings 
+
+- [Sun et al. _2015_ Quantifying long-term evolution of intra-urban spatial interaction](https://northeastern.instructure.com/courses/23734/files/5408106/download?wrap=1)
+- [The Future Cities Lab](http://www.fcl.ethz.ch/)
+
+### Prompt
+
+- "Sun et al. used network data—that is, the analysis of interconnections between individuals—to study the city. What did they learn? Do you see further promise in an urban network science?"
