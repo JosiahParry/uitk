@@ -1,11 +1,22 @@
 Package: uitk
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Title: A Companion Package for the Urban Informatics Toolkit
+Version: 0.0.9000
+Authora@R:
+  c(person(given = "Josiah",
+           family = "Parry",
+           role = c("aut", "cre"),
+           email = "josiah.parry@gmail.com",
+           comment = c(ORCID = "0000-0001-9910-865X")))
+Maintainer: Josiah Parry <josiah.parry@gmail.com>
+Description: An R package to accompany the Urban Informatics Toolkit (UITK). UITK is an online book is intended to serve as an effective introduction to the understanding and analysis of the urban commons. In it you will find material on the theoretical underpinnings of Urban Informatics and an introduction to the statistical programming language R which will allow you to work confidently with the data you will encounter in your research, coursework, or elsewhere.
+License: CC0
 Encoding: UTF-8
 LazyData: true
+Depends: 
+    R (>= 2.10)
+Imports: 
+    sf,
+    readr,
+    learnr
+RoxygenNote: 7.1.0
