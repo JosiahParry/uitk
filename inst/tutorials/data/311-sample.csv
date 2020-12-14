@@ -1,0 +1,11 @@
+type,prop_id,location,neighborhood,source,open_date
+traffic signal repair,i1739,bowdoin st & bowdoin st,dorchester,self service,2013-01-01
+request for snow plowing,i1921,brent st & talbot ave,dorchester,constituent call,2013-01-01
+snow removal,a43627,268 e cottage st,dorchester,citizens connect app,2013-01-01
+snow removal,a219808,276 e cottage st,dorchester,citizens connect app,2013-01-01
+snow removal,i1281,belmore ter & boylston st,jamaica plain,citizens connect app,2013-01-01
+snow removal,a131824,45 sullivan st,charlestown,citizens connect app,2013-01-01
+notification,a112520,48 pratt st,allston / brighton,constituent call,2013-01-01
+notification,a112520,48 pratt st,allston / brighton,constituent call,2013-01-01
+requests for street cleaning,a14574,1124 bennington st,east boston,constituent call,2013-01-01
+requests for street cleaning,a158377,895 massachusetts ave,roxbury,constituent call,2013-01-01
