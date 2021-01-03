@@ -1,0 +1,97 @@
+---
+title: "Reading Data"
+output: learnr::tutorial
+runtime: shiny_prerendered
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+knitr::opts_chunk$set(echo = FALSE, exercise=TRUE, warning=FALSE)
+requests <- readr::read_csv("https://raw.githubusercontent.com/JosiahParry/uitk/master/data/311-sample.csv")
+```
+
+
+## Reading Data 
+
+First, read [Chapter 8](https://ui.josiahparry.com/reading-data.html) of Urban Informatics Toolkit.
+
+To read data we will use the package readr from the tidyverse. 
+
+We provide the path to the data. Most often this will be a file path on your computer like `data/`. Or, it can be a URL. In this example we will be using a file hosted online. It is at `https://raw.githubusercontent.com/JosiahParry/uitk/master/data/311-sample.csv`. Go ahead and give that a look to see the raw data. Supply that as a character string (surround by quotes like `"words and stuff"`). When things are wrapped in quotations R treats them like words and not objects we've created. 
+
+
+## Reading CSVs
+
+1. Read in the CSV at `https://raw.githubusercontent.com/JosiahParry/uitk/master/data/311-sample.csv` and save it to the object requests. 
+2. Print out the resultant object
+
+```{r reading-csv, message=FALSE}
+library(tidyverse)
+
+requests <- read_csv("https://raw.githubusercontent.com/JosiahParry/uitk/master/data/311-sample.csv")
+
+```
+
+
+## Reading Excel Files
+
+```{r}
+library(readxl)
+
+readxl::read_excel("https://raw.githubusercontent.com/JosiahParry/uitk/master/data/311-sample.xlsx")
+```
+
+
+## Tab delimited data
+
+
+
+## Looking at your data
+
+- `glimpse()` will preview all of the columns in your data frame.
+
+```{r glimpse}
+glimpse(requests)
+```
+
+- `summary()`
+
+```{r summary}
+summary(requests)
+```
+
+### {skimr}
+
+skimr is a package that provides a nice visual summary of your data. It summarizes each type of data differently. 
+
+1. Install the `skimr` package
+2. Use the function `skim()` on your requests data frame.
+
+Since you only need one function it makes more sense to call the function directly without having to load the entire package. You would do this like `skimr::skim(dataframe)`.
+
+```{r skimr}
+skimr::skim(requests)
+```
+
+### The shape of your data
+
+Sometimes you will need to know the dimensions of your data set in a programmatic way. There are, of course, functions in R to help you do this. The function `dim()` will return a **vector** of length two. Containing first, the number of rows, and second, the number of columns. 
+
+```{r dims}
+dim(requests)
+```
+
+I think we ought to be a bit more explicit, though, and prevent any room for confusion. To retrieve the number of rows and column use the functions `nrow()` and `ncol()` respectively. These only return on value—no need to remember if the first or second value is the one you want! 
+
+```{r nrow-ncol}
+nrow(requests)
+
+ncol(requests)
+```
+
+
+csv
+excel 
+tsv
+
+

@@ -3,11 +3,11 @@ title: "Week 8"
 
 ---
 
-## Overview:
+## Overview
 
 As we conclude Unit 2 it is time again to reflect a bit on our use of administrative data. First, as with last semester, we will use workshops to ensure that the measures that we are building are in fact interesting, meaningful, and potentially useful for research, policy, and practice. This will culminate in the completion of the second midterm, which will report these measures and their content. We will also read Danah Boyd and Kate Crawford’s “Six Provocations for Big Data,” which further forces us to consider the philosophical and ethical challenges that accompany this work.
 
-## Learning objectives:
+## Learning objectives
 
 - Assess the philosophical challenges of working with modern digital data
 

@@ -1,0 +1,19 @@
+---
+title: "About the instructor"
+---
+
+Hey, everyone! I am extremely excited to be teaching this course this semester. I suspect you may be wondering who I am. Let me try and dispel that a little bit.
+
+As you've hopefully noticed by now, my name is Josiah Parry. Pretty please do not call me "Professor," I'll kindly ask you to call me by my first name. I am a graduate of the Urban Informatics program here at Northeastern. I've gone through this curriculum myself! 
+
+Back in September, inspired by the pandemic, I left the comfort of Central Square apartment to move to Portland, ME for a change. I will say that I miss Felipe's, I miss Pavement coffee, and I miss wandering around Harvard Square and occasionally losing in chess games to _Doc_ and buying him a Spanish latte. But Portland brings it's own charisma and charm. It is quieter. It is has arguably tastier food and more quality espresso per square mile. 
+
+In my new apartment overlooking Portland's West End you'll find me working remotely for RStudio, PBC. That looks like a whole lot of zoom calls, emailing, and R programming. I am on the Customer Success team at RStudio working with our public sector customers. I get to discuss all things R, data, and infrastructure with government agencies around the world whether they be municipalities, state, or federal organizations. 
+
+On the weekends you can probably find me at Sunday River enjoying what little snow there may be. I know no other way to make it through the harshness of a New England winter! 
+
+If you're willing, I'd love to engage with you all on twitter  [`r fontawesome::fa("twitter")`](https://twitter.com/josiahparry). The `#rstats` community there is extremely welcoming and suggest you all dip your toes in! 
+
+Please email me if you have any questions :) 
+
+

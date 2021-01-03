@@ -24,3 +24,4 @@ To prepare for the course, I would strongly suggest you read the below suggested
 - [Install R](https://cran.r-project.org/)
 - [Install RStudio](https://rstudio.com/products/rstudio/download/#download)
 - [Pre-course survey](tbd)
+

@@ -5,3 +5,5 @@ render_distill <- function(dir = "course-site") {
              .f = ~rmarkdown::render_site(.x))
 
 }
+
+#render_distill()

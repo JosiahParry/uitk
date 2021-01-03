@@ -1,0 +1,22 @@
+---
+title: "City Exploration #2: Neighborhood through the Lens of Public Media"
+---
+
+- [Sample City Walk Document](static/Sample_City Walk Document.pdf)
+- [Boston Data Portal Handout](static/BostonDataPortal_Handout.pdf)
+
+
+1. Select a neighborhood based on something notable about the measure(s) that you are developing, e.g., the highest or lowest value, an interesting combination of values, etc.
+2. Explore how this neighborhood is represented and portrayed through news articles, websites, blogs, community organizations, social media, and other online resources. You might also utilize [BostonMap](https://worldmap.harvard.edu/boston/) to fill out this story with demographic information or StreetView images.
+3. Write a 3-5 pg. virtual walk memo describing the logic for why you visited this place, what you discovered, and what this tells you about the interpretation of your data. It will need to include illustrative images from the media you utilized.
+**To review Sample City Exploration document, see attachments above.**
+
+## Rubric
+
+- Logic for Exploration: 1 pts.
+
+- Exploration: 1.5 pts.
+
+- Re-evaluation of Data: 2 pts.
+
+- Details (grammar, structure): .5 pts.

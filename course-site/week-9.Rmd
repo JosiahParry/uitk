@@ -10,7 +10,7 @@ In this module, you will utilize correlation and regression to analyze the relat
 
 We will also take a look at the Santa Fe's Institute's use of correlation and regression to develop universal models of urban scaling. 
 
-## Learning Objectives:
+## Learning Objectives
 
 - Describe the premises of inferential statistics
 - Conduct correlations to describe the strength of relationship between two variables

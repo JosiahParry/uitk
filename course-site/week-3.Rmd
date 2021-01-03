@@ -6,7 +6,7 @@ title: "Week 3 - Revealing Knowledge"
 
 Digital data are rich in content and detail, but they do not automatically become knowledge. It is up to the analyst to revise variables or to create new ones that makes this knowledge more accessible, that it might be leveraged for research, policy or practice. In this module, you will create new or revised variables in your own data set that facilitate subsequent analysis. This might include “fixing” or omitting erroneous cases, reorganizing to make an existing variable more tractable, or combining information from multiple variables to make critical information more directly accessible. We will also look at the world of “Smart Cities,” where private corporations like Google Sidewalk Labs have promised to leverage data to create technologies and programs that make urban systems more efficient and responsive—as well as some critics who make clear that making cities smart is about more than just data. Finally, this week will feature the first City Exploration assignment in which you will virtually visit a neighborhood of your choice in order to determine whether the patterns that you are seeing in your data set mean what you think they do about what is actually going on in a neighborhood.
 
-### Learning objectives:
+### Learning objectives
 
 Learning objectives for this module are to:
 

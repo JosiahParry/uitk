@@ -1,0 +1,26 @@
+---
+title: "City Exploration #3: Urban Hike"
+---
+
+- [Sample City Walk Document](static/Sample_City Walk Document.pdf)
+- [Boston Data Portal Handout](static/BostonDataPortal_Handout.pdf)
+
+The final City Exploration of the semester will be another in-person “urban hike.” You will "visit" a place or neighborhood, preferably one that is unfamiliar to you, with the goal of again giving further context to your data analyses. You will note that the prompt here is essentially a repeat of the instructions for City Exploration #1, but it will clearly engage with the greater sophistication you have developed over the semester. Also, this City Exploration should incorporate a final reflection on the relevance of your work to local communities and how that has evolved since your first City Exploration.
+
+1. Select a neighborhood based on something notable in your analyses regarding the direction you anticipate for your final project, with an eye towards providing "ground truth" relative to something that has intrigued or challenged you. You might also consider how this particularly "ground truthing" exercise will enable you to evaluate the potential impact or public value of your analyses.
+
+2. Visit and explore this neighborhood either in person or through whatever virtual tools you find useful (including Google StreetView, BostonMap, public media, etc.), seeking to observe how the characteristics of the data and your analyses manifest themselves in the real world.
+  - Though there is no strict guideline on how long you need to spend exploring the neighborhood, a visit that lasts less than a half-hour would be unlikely to generate enough observations to support a high-quality memo and presentation.
+3. Write a 3-5 page memo describing the logic for why you visited this place, what you discovered, and what this tells you about the interpretation of your data. This last part should include or be followed by a broader discussion of how your perspective on the relevance of your work for communities has evolved over the course of the semester. This written document should include images from your exploration and maps with data describing the region.
+
+**To review Sample City Exploration document, see attachments above. These, however, have not historically required the additional reflection included here, so keep that in mind when using them as a model.**
+
+## Rubric
+
+- Logic for Exploration: 1 pts.
+
+- Exploration: 1.5 pts.
+
+- Re-evaluation of Data: 2 pts.
+
+- Details (grammar, structure): .5 pts.

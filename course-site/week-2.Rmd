@@ -7,7 +7,7 @@ title: "Week 2 - Pulse of The City"
 - ["Towards a comparative science of cities: Using mobile traffic records in New York, London, and Hong Kong." by Grauwin et al.](https://northeastern.instructure.com/courses/65223/files/6696609/download?wrap=1)
 - [Senseable Cities at MIT](http://senseable.mit.edu/)
 
-**Prompt**:
+### Prompt
 
 - What did Senseable learn about the patterns (or pulse) of the city through cell phone data?
 - How might the interpretations differ depending on who does and does not own or regularly use cell phones?
@@ -27,10 +27,12 @@ For this week's data assignment, briefly describe the structure of either your w
 -   Generate at least three interesting pieces of information or patterns from your data set and describe the insights they provide regarding the dynamics of the city. These can be communicated as numbers, graphs, or both and should convey what you see as the overarching information contained in the data set.
 -   Find at least two things in your data set that are strange, not make sense, or are contrary to your expectations.
 
-### Skills needed:
 
--   %>%
--   group_by()
--   summarize()
--   ggplot2
+
+<!-- ### Skills needed: -->
+
+<!-- -   %>% -->
+<!-- -   group_by() -->
+<!-- -   summarize() -->
+<!-- -   ggplot2 -->
 

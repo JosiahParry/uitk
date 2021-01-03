@@ -2,11 +2,11 @@
 title: "Week 7 - Mapping the City"
 ---
 
-## Overview:
+## Overview
 
 Data describing the city are special because they all reference the same set of buildings, streets, and neighborhoods. As we saw last week, this enables us to easily link measures that describe the same units. It also means that these data are spatial, and can be communicated and examined through maps. In this module, you will create maps that illustrate the distribution of one or more measures across the urban landscape. We will also learn about the Bartlett Centre for Advanced Spatial Analysis at University College London, one of the original urban informatics research centers, and their efforts to map the city.
 
-## Learning objectives:
+## Learning objectives
 
 - Describe the differences between spatial data and traditional tabular data
 - Utilize spatial data files in R.

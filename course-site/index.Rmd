@@ -13,4 +13,13 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
+## Welcome 
+
+This is the supplemental course website for the Spring 2021 offering of SPPUA 5262: Big Data for Cities. I, Josiah Parry, will be your instructor for this asynchronous online offering. I am excited to equip you all with some of the tools needed to analyze the urban commons. While the tools you will learn will be useful, they are by no means the exhaustive list—this is quite impossible! 
+
+This course is based on Dr. Dan T. O'Brien's course—the very same that I took a few years ago. I will, however, be making my own adjustments as I see fit and emphasizing the importance of the R programming language and its contemporary packages. A good (and fun) foundation in R is essential to ensuring that you want to continue exploring the urban commons. 
+
+
+## Course Summary
+
 The past decade has seen the rapid proliferation of large-scale digital data sets, from cell phone records to social media posts, from calls for government services to digitized historical records. With their unprecedented volume and detail, these new resources have opened up a window through which we can closely examine the behavioral and social dynamics of everyday life, and nowhere is this truer than in urban areas, which have the greatest density of both people and technology. This has given rise to urban informatics, and a renewed opportunity to understand the city, its people, and its neighborhoods, and to develop new policies and programs that improve urban life. Big Data for Cities takes an experiential approach that enables students to contribute to this young field. Given unprecedented times, we will apply our newfound skills to the urgent question of the shifting urban landscape in the age of COVID-19.

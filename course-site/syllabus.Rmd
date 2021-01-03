@@ -3,13 +3,12 @@ title: "Syllabus"
 ---
 
 
-- **Instructor**: Josiah Parry (parry.jo@northeastern.edu)
-- **Office Hours**: 
-- **Course Meets**: 
+- **Instructor**: Josiah Parry (j.parry@northeastern.edu)
+  - [Bio](./your-instructor.html)
+- **Course Meets**: Thursdays 15:00-16:00 EST (3pm - 4pm)
 - **Required Texts**:
   - R for Everyone by Jared P. Lander (available as e-book through NU library)
   - [R for Data Science by Hadley Wickham & Garrett Grolemund](https://r4ds.had.co.nz/) 
-  
   
 
 ## Course Mission
@@ -62,7 +61,8 @@ As such, the value of the course will be more than just the five content-specifi
 - We will learn how to use R to manipulate, analyze, and visualize naturally-occurring data by working with data sets from BARI's COVID in Boston database, which draws from numerous administrative and internet sources. Each student will be assigned to a collaborative team that will analyze one of these data sets. Teams will be constructed using the preferences expressed by students in the pre-semester survey. 
 - The data collaborations will be the basis of weekly assignments and semester projects. All such assignments will be completed by individuals, but students are encouraged to share documents and modified data with each other. Teams will also work together to combine their advances with the data into data products. Major assignments and data products will be shared back with our municipal partners.
 - Data will be made available to students via BARI's Boston Data Portal, hosted by Dataverse. **You will need to create a Dataverse account. See instructions for using Dataverse on Canvas under Course Material - > Technical Support Documents.**
-- Weekly assignments (see below) will be posted on a course blog meant to communicate progress and to advance discussion and brainstorming. Instructions for using the blog are posted on Canvas under Course Material -> Technical Support Documents.
+
+<!-- - Weekly assignments (see below) will be posted on a course blog meant to communicate progress and to advance discussion and brainstorming. Instructions for using the blog are posted on Canvas under Course Material -> Technical Support Documents. --> 
 
 
 ## Assignments
@@ -95,7 +95,7 @@ There will be no partial credit. These responses do not have a length requiremen
 
 ### City Exploration Assignments
 
--  There will be one city exploration assignment during each unit of the course in which students will visit a part of the city to which they have never (or rarely) been, either in erson or virtually. Each walk will have a different theme, connecting the data curriculum of that unit to the real-world context of the municipality whose data you are analyzing. Guidance on whether to visit places in-person or virtually will be contingent on current circumstances and all city explorations will offer online resources for a virtual option.
+-  There will be one city exploration assignment during each unit of the course in which students will visit a part of the city to which they have never (or rarely) been, either in person or virtually. Each walk will have a different theme, connecting the data curriculum of that unit to the real-world context of the municipality whose data you are analyzing. Guidance on whether to visit places in-person or virtually will be contingent on current circumstances and all city explorations will offer online resources for a virtual option.
 -  For each city exploration assignment, students will complete a 4-5 pg. walk memo. Each walk memo must also include at least two pictures or screen shots from the exploration (not counted towards length).
 -  Class on the week of city exploration assignments will conclude with a series of 3 min. student presentations describing their city exploration. Each student will give one such presentation during the semester.
 -  Rubric for city exploration assignments included on Canvas where assignments are announced.

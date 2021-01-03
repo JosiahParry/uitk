@@ -1,0 +1,28 @@
+---
+title: "City Exploration #1: Tour of a Neighborhood"
+---
+
+- [Sample City Walk Document](static/Sample_City Walk Document.pdf)
+- [Boston Data Portal Handout](static/BostonDataPortal_Handout.pdf)
+
+For this city exploration assignment, please:
+
+1. Select a neighborhood (or more localized place) based on something notable in the data you are working with this semester, e.g., the highest or lowest value on some variable of interest, a density of cases in one region, etc.
+
+2. Visit and explore this neighborhood either in person or virtually, with an eye to the observations you made in the data and how these characteristics manifest themselves in the real world.
+  - Though there is no strict guideline on how long you need to spend exploring a neighborhood, either in person or virtually, a visit that lasts less than a half-hour would be unlikely to generate enough observations to support a high-quality memo and presentation.
+  - In these unorthodox times, you should decide whether you are comfortable visiting an unfamiliar neighborhood in person. It is not obligatory to do so. You can instead use the Boston Data Portal (see the handout attached above and http://worldmap.harvard.edu/boston/) and other online resources, like Google Street, to "visit" the neighborhood virtually. If you choose this option, please make it clear that this was the case in your memo and presentation.
+
+Write a 3-5 page memo describing the logic for why you visited this place, what you discovered, and what this tells you about the interpretation of your data. This written document should include images from your walk (or from StreetView if visiting virtually) and maps with data describing the region.
+
+**To review Sample City Exploration document, see attachments above.**
+
+## Rubric
+
+- Logic for Exploration: 1 pts.
+
+- Exploration: 1.5 pts.
+
+- Re-evaluation of Data: 2 pts.
+
+- Details (grammar, structure): .5 pts.

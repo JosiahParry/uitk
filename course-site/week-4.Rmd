@@ -2,11 +2,11 @@
 title: "Week 4 - Workshop"
 ---
 
-## Overview:
+## Overview
 
 The great Sherlock Holmes once said, “It is a capital mistake to theorize before one has data.” On the other hand, an old saying among scientists is that “There can be no data without theory,” because one cannot generate information without first asking questions. This symbiosis between theory and data has been critical to the work we have done thus far. As we have seen, extracting information from a data set requires knowing what we want to learn and making a number of decisions to reveal it through analyses and visualizations, and those analyses and visualizations then stimulate new questions. As we spend this week preparing for the midterm, we will be considering this question of what we can learn from our data set, and how we want to go about exposing it and communicating it through a Read-Me Document. In addition, we will read two essays about whether data "speak for themselves," or if there is still a need for theory in guiding data science.
 
-### Learning objectives:
+### Learning objectives
 
 - Assess the role of theory in data science.
 - Distinguish between data- and theory-driven approaches.
@@ -19,3 +19,7 @@ The great Sherlock Holmes once said, “It is a capital mistake to theorize befo
 ### Prompt
 
 - What’s your take on Anderson and Pigliucci’s debate about the role of theory in data science?
+
+## Assignment
+
+- First City Walk

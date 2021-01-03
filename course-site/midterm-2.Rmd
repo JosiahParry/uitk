@@ -1,0 +1,35 @@
+---
+title: "Midterm 2"
+---
+
+
+The midterm is composed of two parts: an **individual** and a **group** component. 
+
+## Individual Component
+
+- [Example Measurement Midterm](static/Vasquez Measurement Midterm.pdf)
+- [Measurement Midterm Assignment](static/Measurement Mid-Term Assignment.pdf)
+
+A short paper summarizing the construction of a new aggregate measure and its construction, including:
+
+- A textual description of how the measure was constructed, justifying any specific decisions that were made (for example, categorization of case types). This will include:
+    - A summary of new variables at the record level (i.e., the original database) that were constructed first as part of the overall calculation of your aggregate measure(s.
+    - A summary of the new aggregate measure(s) that you’ve calculated and how you have done so.
+
+- A short description of the new variable's distribution and/or values. What's the mean? Where is it highest? Anything else fun or interesting? Etc. This should include at least one tabular visualization (e.g., histogram) and a map, if appropriate.
+
+- An appendix with an annotated R syntax articulating all steps required to create the measure(s) (should be your portion of the R syntax copy-and-pasted; see below).
+
+**To review an strong example from a previous year, see attachment above.**
+
+
+## Group Component 
+
+- [Building Permits 2018 Documentation](static/building-permits-documentation-2018.pdf)
+
+**An updated version of the data set, loaded into the Dataverse, including:**
+
+- The record-level file with all new and modified variables included. **This is an update of the record-level file submitted for the first midterm**.
+- Any files at the aggregate level (e.g., census tracts) and the variables describing them.
+- An updated Data Dictionary that describes the new variables and, if necessary, modifies the description of any already existing variables, as well as variables at the aggregate level of the database. **This is an update of the Data Dictionary submitted for the first midterm**. Please see the example posted above for formatting.
+- Annotated R syntax clearly articulating steps for all data cleaning and variable creation. This should be efficient and complete such that the code could be run all at once on raw data to recreate the updated data set. This is an update of the R Syntax submitted for the first midterm.

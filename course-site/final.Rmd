@@ -1,0 +1,65 @@
+---
+title: "Final Project"
+---
+
+- [Final Project Example 1](static/Final Project Example 1.pdf)
+- [Final Project Example 2](static/Final Project Example 2.pdf)
+- [Final Project Example 3](static/Final Project Example 3.pdf)
+- [Executive Director's Report](static/2020_4_ExDir-Report_Apr_FINAL.pdf)
+- [Inequities in Navigating a Pandemic](static/Report-1-Inequities-in-Navigating-a-Pandemic-4.pdf)
+
+
+## Final Assignment: Inform, Measure, and Discover
+
+This semester has been composed of three parts, throughout which you have developed skills and undertaken analyses that will converge in your final project. The final project will summarize all of this work in two pieces, the Individual and Group components.
+
+### Rubric
+
+- Project: 12%
+- Presentation: 8%
+- Group Portion: 5%
+
+## Individual Component
+
+The final paper and presentation will present a research project that reveals one or more discoveries from the data set you have worked with this semester. The project should highlight the measure(s) that you have developed during the semester and incorporate at least one data set in addition to the one you were assigned at the beginning of the course. Note that you are welcome to use any material from the previous midterms and exploratory data assignments for this project.
+
+The paper will be in the format of a public report, consisting of:
+
+- A brief Executive Summary that details the main points of your analysis and findings. Think of the audience for this being someone who would benefit from the insights but might not have the time to read the whole paper or the desire to wade through methods.
+- An Introduction that describes the conceptual inspiration for your analysis and why it might be interesting, both conceptually and practically. You might also include hypotheses if appropriate. The Introduction should include a few citations to fully justify and motivate your analyses.
+- A brief Data & Methods section that describes the content of your data set, how you calculated any new measures, and other data sources you used. **This is not your complete Methods section, but just enough for a reader to be able to understand the content that follows. It should reference the Appendix (see below).**
+- One or more Results & Discussion section where you describe your analyses. This might include some basic descriptive statistics (e.g., what is the distribution of a critical measure across the city, what is the average, the max, etc.) and more sophisticated statistical and visual analyses. This part of the paper should strive to tell one or more interesting stories.
+  - It does not need to be titled Results & Discussion. In fact, it probably should have one or more subsections with titles that capture precisely what you discovered.
+  - _This must include either a correlation/regression or a t-test/ANOVA analysis, and at least three visualizations, one of which must be a map._
+- A Conclusion that briefly interprets what you’ve found and suggests implications for research and policy. This can be about a page and to the point.
+- A Methodology Appendix that describes the content of your data set and then summarizes how you calculated any new measures and from where you accessed other measures. Keep in mind that this section should not include detail for detail’s sake, but should provide the information necessary for an expert to (a) fully understand what you did and (b) replicate the work if they so desired.
+- Please use Chicago style for any references. Use in-line citations (as in the scientific papers we have read this semester). Include all references in the references section in alphabetical order and do not include any references not cited in the text.
+- The paper should be 12-15 pgs. of text. There is not a hard minimum for length, but if your paper is shorter than 12 pgs., it is unlikely you fully completed the expectations of the assignment.
+- The presentation that will accompany the paper will likely follow a similar structure, though presentations grant a little more flexibility in style. The Executive Summary will be more a part of your Introduction setting up the talk and there will be no Methodology Appendix, so be mindful of what is necessary for the presentation medium (but be ready for audience questions!). Please keep the presentations to no more than 5 minutes.
+
+
+### Rubric: Paper (Total 12 pts.)
+
+- Executive Summary: 1.5 pts.
+- Introduction: 1.5 pts.
+- Data & Methods: .5 pts.
+- Results & Discussion: 3 pts.
+- Conclusion: .5 pts.
+- Methodology Appendix: 2 pts.
+- Visuals: 1.5 pts.
+- Details: 1.5 pts.
+
+## Group Component 
+
+As with the previous two midterms, the group will work together to combine all modifications made by group members into an updated data set and documentation. It will include three parts that will be uploaded to the Dataverse:
+
+- The record-level file with all new and modified variables included. This is an update of the record-level file submitted for the second midterm.
+- Any files at the aggregate level (e.g., census tracts) and the variables describing them. This is an update of the aggregate level file(s) submitted for the second midterm.
+- An updated Data Dictionary that describes the new variables and, if necessary, modifies the description of any already existing variables, as well as variables at the aggregate level of the database. This is an update of the Data Dictionary submitted for the second midterm.
+- Annotated R syntax clearly articulating steps for all data cleaning and variable creation. This should be efficient and complete such that the code could be run all at once on raw data to recreate the updated data set. This is an update of the R Syntax submitted for the second midterm.
+
+### Rubric: Group component (Total 5 pts.)
+
+- Data: 2 pts.
+- Syntax: 2 pts.
+- Updated Documentation: 1 pt.
