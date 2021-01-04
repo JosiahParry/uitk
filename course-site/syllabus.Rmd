@@ -123,7 +123,7 @@ data set that anyone working with the data might find informative. It will inclu
 
 ## Grading
 
-- 10% Attendance & Participation
+- 10% Participation
 - 10% Reading Responses and Other Small Assignments
 - 10% Walk Memos
 - 15% Week-to-Week R Assignments
@@ -141,10 +141,7 @@ data set that anyone working with the data might find informative. It will inclu
 
 ### Other Expectations:
 
-- Class will start promptly at 5:15. Please be on time. If you are late for any reason, please enter without disturbing the class.
-- We will typically end by 8:15. This is a 4-credit course, which assumes 3 hrs. 20 min. of course time weekly. The remaining time will be put towards out-of-class viewing of online lectures.
-- The use of communication devices during class will not be tolerated. Upon entering, please turn off all cellular phones and related devices. Please also keep computers off during activities and discussions that do not require them.
-- Late assignments will be discounted 20% per weekday. After a week, they will no longer be accepted. If an assignment was to be posted online in advance of class to stimulate discussion there will be no opportunity for late credit.
+- Late assignments will be discounted 10% per day After a week, they will no longer be accepted. If an assignment was to be posted online in advance of class to stimulate discussion there will be no opportunity for late credit.
 - E-mailed assignments, except in the case of an absence, will be considered 1 day late.
 - Late assignments or absences will only be considered excused in the case of a doctor’s note
 or evidence of an academic conflict.

@@ -7,7 +7,7 @@ The midterm is composed of two parts: an **individual** and a **group** componen
 
 ## Individual Component
 
-- [Example Measurement Midterm](static/Vasquez Measurement Midterm.pdf)
+- [Example Measurement Midterm](static/Vazquez Measurement Midterm.pdf)
 - [Measurement Midterm Assignment](static/Measurement Mid-Term Assignment.pdf)
 
 A short paper summarizing the construction of a new aggregate measure and its construction, including:
