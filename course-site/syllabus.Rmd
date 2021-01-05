@@ -75,9 +75,9 @@ Each week will entail: readings with reading responses; and R-based data explora
 - Readings are listed in the syllabus and will be posted on Canvas unless otherwise specified.
 - Each reading assignment will be accompanied by a short reading prompt meant to guide
 reading. We will jumpstart class discussion using the Canvas discussion board in advance of class.
-  - Students will turn in their response to the reading prompt, which must be at least 250 words, on the Canvas discussion board designated for that week by Tuesday at noon.
+  - Students will turn in their response to the reading prompt, which must be at least 250 words, on the Canvas discussion board designated for that week by Thursday at noon.
   - Students will be expected to browse each other's responses as well. It will be required
-to respond to at least one other student's response by class time on Wednesday.
+to respond to at least one other student's response by Thursday. 
 - Posts based on the reading prompt are graded out of 2 points: 2 = complete, 1 = incomplete
 (under word count / not entirely relevant to the reading / limited original thought), 0 = not
 turned in. Instructor will award partial points as appropriate.

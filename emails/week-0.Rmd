@@ -1,0 +1,65 @@
+---
+title: "Week 0 Email"
+output: blastula::blastula_email
+css: "../course-site/sppua5262.css"
+---
+
+```{css, echo = FALSE}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;300;400;700;900&display=swap');
+
+p, li {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+h1 {
+  font-size: 2.5em;
+}
+
+h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+  color: #c00;
+}
+
+```
+
+
+# Welcome to Big Data for Cities!
+
+My name is Josiah Parry and I'll be you instructor this semester! In this course we will be building the technical foundation for your explorations of the Urban Commons. To this end, we will be getting _very_ familiar with the R programming language and using it to interrogate administrative data to derive new insights about the city. I live and breathe R (this email was written in R!) and I hope to pass on some of that energy to you all. 
+
+My goal for this semester is to ensure that you all are self sufficient using R and feel comfortable tackling all problems that are tossed you way. This means I want you to learn _how to solve problems_ not just know a few commands here or there. 
+
+This course is intended to be entirely online and was designed to be a flipped classroom—where you consume lectures on your own and we chat and problem solve together. I want to live up to the spirit of this while digitally separated. To that end, I will be hosting optional Zoom sessions on Thursdays from 15:00 - 16:00 EST—ask me about timezones if you want to get to know me—in which we will review the R content for the week. 
+
+## A note on the structure of the course
+
+This iteration of the course has it's own website that I hope will be of use to you all. It can be found at [`https://bd4c.netlify.com`](https://bd4c.netlify.com). I find Canvas and the like to be troublesome so I hope this simplifies it for you a bit! 
+
+Each week there will be a few readings and a discussion board on Canvas for you to respond to. Please show me who you are in these posts. Feel free to include humor, gifs, or go on a (respectful) rant about why you disagree with the author. 
+
+In addition to the readings you will have a data assignment. The drafts are due by Wednesday and the Final submission is due on Sunday at 23:59. 
+
+## This week
+
+Please complete the pre-course survey [here](). If you're willing, I'd love to have you reply to this email and let me know
+
+  - your name,
+  - preferred pronouns,
+  - and a fun fact about yourself.
+
+
+Check the [week 0 agenda](https://bd4c.netlify.app/week-0.html). Please follow the links to install R and RStudio. 
+
+Our first meeting will be brief. I'll be there to introduce myself, discuss the course, and meet you all! 
+
+If you want to get a headstart (which I recommend), please go ahead and give the [week 1](https://bd4c.netlify.app/week-1.html) technical readings a perusal.
+
+- Install R
+- Install RStudio 
+
+Have a great week! 
+
+Talk to you soon :) 
+
+- Josiah 
