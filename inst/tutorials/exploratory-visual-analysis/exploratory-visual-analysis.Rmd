@@ -13,52 +13,6 @@ library(tidyverse)
 knitr::opts_chunk$set(echo = FALSE, exercise=TRUE, warning=FALSE)
 ```
 
-
-## Exploratory Visual Analysis 
-
-
-In the next part of this book we will introduce to you visual data exploration through the use of the R package `ggplot2`. You will ask questions of your data, visualize relationships, and draw inferences from the graphics you develop. 
-
-The below image from R for Data Science is renowned for its representation of the data analysis workflow. The concept map encompasses the need to get data (import), clean it up (tidy), explore, and finally communicate insights. The box in blue is a representation of exploratory data analysis (EDA). While performing EDA we will find ourselves transforming our data—creating new variables, aggregating, etc.—visualizing it, and creating statistical models. 
-
-<!-- ![](static/data-science-explore.png) -->
-
-This chapter will focus on the visualization step of EDA. We have all heard the trope that "an image is worth a thousand words." I'd take a leap and say that a good visualization is worth ten thousand words. An older statistical manual from the National Institute of Standards and Technology (NIST) beautifully lays out the role that visualization plays in EDA.
-
-> The reason for the heavy reliance on graphics is that by its very nature the main role of EDA is to open-mindedly explore, and graphics gives the analysts unparalleled power to do so, enticing the data to reveal its structural secrets, and being always ready to gain some new, often unsuspected, insight into the data. In combination with the natural pattern-recognition capabilities that we all possess, graphics provides, of course, unparalleled power to carry this out.[^nist]
-
-
-In the following section, you will become acquainted with the package `ggplot2` which we will use to perform a visual analysis of the American Community Survey. We will walk through the process building a chart from the ground up and drawing inferences from it along the way.
-
-
-## The American Community Survey 
-
-For this first data exploration we will work with data from the American Community Survey (ACS). While the ACS is central to Urban Informatics (UI), it does not exhibit the primary characteristic of that we rely upon in UI—namely being naturally occurring. This is a topic we will explore in more depth later. In order to use the ACS data, we must understand what data we are actually working with. The ACS is one of the most fundamental data sets in American social sciences. The ACS is administered by the US Census Bureau but is done so for much different purposes. Article I Section 2 of the US Constitution legislates a decennial census.
-
-> . . . [an] enumeration shall be made within three Years after the first Meeting of the Congress of the United States, and within every subsequent Term of ten Years, in such Manner as they shall by Law direct.
-
-The above clause requires the US government to conduct a complete counting of every single individual in the United States for the purposes of determining how many congressional representatives each state will have. These censuses provided a detailed image of _how many_ people there were in the US, but lacked much information beyond that. The first census asked each household for "the number of free white males under 16 years" and of "16 years and upward", the "number of free White females", "number of other free persons, and the "number of slaves"[^12] Since then the breadth of questions asked during the census has increased as well as other supplementary sources of information.
-
-The ACS was developed in response to two shortcomings of the decennial census. The first being that the census only occurrs every ten years. There was, and still is, a need for more consistent and current data. Not only are the censuses too infrequent, but they also do not provide the most colorful picture of who it is that lives within the US. Local, state, and federal governments desired more context about who their constituents are. 
-
-The ACS was developed and first officially released in 2005[^13]. The ACS uses a "series of monthly samples" to "produce annual estimates for the same small areas (census tracts and block groups) formerly surveyed via the decennial census long-form sample"[^14]. As Catherine Rampell wrote in the New York times
-
-> "It tells Americans how poor we are, how rich we are, who is suffering, who is thriving, where people work, what kind of training people need to get jobs, what languages people speak, who uses food stamps, who has access to health care, and so on."[^15]
-
-The impact of the ACS are wide stretching from funding to social research. 
-
-### Understanding ACS Estimates
-
-Continuous sampling done by the US Census Bureau occurs at a monthly basis and are used to produce annual estimates[^13]. There are two different types of estimates one can retrieve from the ACS. These are the 1-year and 5-year estimates. Each kind of estimate serves a different purpose.
-
-When choosing between 1-year and 5-year estimates we are making a tradeoff. 1-year estimates provide us with the most current data possible at the expense of a smaller sample size. This means that the estimates are not as reliable as the 5-year estimates which are collected over a period of 60 months. On the other hand, when we consider 5-year estimates, we benefit from a large sample size and increased reliability, but we lose the ability to make statements about a single year. 
-
-In the cases where 5-year estimates are used researchers are analyzing populations and rates derived from five years of data collection. This requires you, the researcher, to qualify this with a statement to the effect of _"the rate of unemployment in 2014-2018 was 4%"_[^16]. Because of this, you are unable to use consecutive 5-year estimates to analyze annual trends. In the case that you need to analyse annual trends 1-year estimates are recommended. 
-
-There is also another important tradeoff one must consider when using ACS data and that is of unit of analysis. The census and ACS are conducted at the household level. However, estimates are provided for geographic areas. These geographic areas have a hierarchy going from block groups at the smallest level geography, to census tracts, and to counties. Beyond counties are geographies at the state level and even larger. Urban informatics is inherently focuses on a more micro,arguably meso,unit of analysis.
-
-The following analysis is done using the Massachusetts census indicators published from BARI. The dataset is based on 2017 5-year estimates from the ACS at the tract level.  
-    
 ## A first visualization
 
 For your first introduction to R, we will explore the relationship between education and income in Massachusetts.

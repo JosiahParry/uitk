@@ -16,7 +16,8 @@ title: "Week 2 - Pulse of The City"
 ## Technical Readings
 
 - Lander: Chapters 3, 7, 15.1
-- UITK (optional):
+- [Tidy Data, Wickham](https://vita.had.co.nz/papers/tidy-data.pdf)
+- UITK:
   - [That's too much data](https://ui.josiahparry.com/thats-too-much-data.html)
   - [The %>%](https://ui.josiahparry.com/the-pipe.html)
 
