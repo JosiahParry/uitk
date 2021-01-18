@@ -23,5 +23,5 @@ To prepare for the course, I would strongly suggest you read the below suggested
 - Read [UITK Ch. 2](https://ui.josiahparry.com/the-basics.html): This chapter will introduce you to R, and the RStudio IDE. 
 - [Install R](https://cran.r-project.org/)
 - [Install RStudio](https://rstudio.com/products/rstudio/download/#download)
-- [Pre-course survey](tbd)
+- [Pre-course survey](https://docs.google.com/forms/d/e/1FAIpQLSfh7ciTP7omaGBysRDrt9mskov8nXSe2Yx5MYNtZXm76_ARSw/viewform?usp=sf_link)
 

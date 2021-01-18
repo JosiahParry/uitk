@@ -1,6 +1,10 @@
+^.Rhistory$
+^misc$
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^data-raw$
 ^LICENSE\.md$
 ^docs$
 ^course-site$
+^README\.Rmd$
+^README\.md$

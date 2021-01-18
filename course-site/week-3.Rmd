@@ -34,7 +34,7 @@ Learning objectives for this module are to:
 
 ## Technical Readings
 
-- Lander: Chapters 3, 7, 15.1
+- Lander: Chapters 9, 11.1
 - [Creating New Measures](https://ui.josiahparry.com/creating-new-measures.html)
 - [Grammar of layered graphics](https://ui.josiahparry.com/layered-i.html)
 - [Visualizing Trends and Relationships I](https://ui.josiahparry.com/visualizing-trends-and-relationships.html)

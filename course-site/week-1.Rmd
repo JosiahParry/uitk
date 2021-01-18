@@ -28,7 +28,7 @@ To complement our introduction to R, we will explore the fundamental themes of u
 ## Technical Readings
 
 - Lander: Chapters 1, 2, 4, 5.1, 6
-- Recommended UITK: 
+- UITK: 
   - [R as a calculator](https://ui.josiahparry.com/r-as-a-calculator.html)
   - [Reading Data](https://ui.josiahparry.com/reading-data.html)
   - [Exploratory Visual Analysis](https://ui.josiahparry.com/exploratory-visual-analysis.html)

@@ -2,12 +2,15 @@
 title: "R as a calculator"
 output: learnr::tutorial
 runtime: shiny_prerendered
+description: An introduction to the very basics of R. 
 ---
 
 ```{r setup, include=FALSE}
 library(learnr)
 knitr::opts_chunk$set(echo = FALSE, exercise=TRUE, warning=FALSE, exercise.lines = 2)
 ```
+
+Accompanying tutorial for [R as a calculator](https://ui.josiahparry.com/r-as-a-calculator.html). 
 
 ## Arithmetic Operators
 
