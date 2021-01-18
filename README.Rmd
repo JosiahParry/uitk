@@ -37,12 +37,13 @@ remotes::install_github("josiahparry/uitk")
     - [How Public Data Can Improve Services and Empower - Communities](https://scholars.org/brief/how-public-data-can-improve-services-and-empower-communit- ies)
     - [NYC's Mayor's Office of Data Analytics](http://www1.nyc.gov/site/analytics/index.page)
   - Technical readings
-    - Lander: Chapters 1, 2, 4, 5.1, 6
+    - Tidyverse [style guide](https://style.tidyverse.org/) chapters 1 and 2
     - UITK: 
       - [R as a calculator](https://ui.josiahparry.com/r-as-a-calculator.html)
       - [Reading Data](https://ui.josiahparry.com/reading-data.html)
       - [Exploratory Visual Analysis](https://ui.josiahparry.com/exploratory-visual-analysis.html)
       - [General Data Manipulation](https://ui.josiahparry.com/general-data-manipulation.html)
+    - Lander: Chapters 1, 2, 4, 5.1, 6
               
 #### Week 2
   - Substantive readings

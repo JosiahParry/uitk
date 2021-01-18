@@ -1,0 +1,16 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+Week 1 
+
+This week you will be receiving your datasets. 
+You will need to have access to the BARI dataverse. See instructions. 
+
+You will be required to read https://style.tidyverse.org/
+
+Chapters 1 and 2. I will grade all of your work according to this style guide. Please bookmark it.
+
+You'll notice that the file names have periods and various capitalizations. Please rename your files with the appropriate names. For example the file named `YELP.Documentation.pdf` should be written as `yelp-documentation.pdf`. 
