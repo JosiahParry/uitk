@@ -42,3 +42,10 @@ Try to draw a diagram of the schema that you think enabled the study that you re
 
 - Be sure to describe why the construct is interesting and how the specific calculations you are using capture it.
 - As you analyze the content of these new variables, be sure to include at least one dot plot that shows the relationships between two variables at the aggregate level.
+
+## Assignment - Service Learning Response 
+
+Now that you've completed your midterm, how did the city walk and in-class workshop influence the practical application of your analysis in working with the data? Going forward, what are your goals in this aspect (practical application-wise)?
+
+Due Friday at 23:59.
+

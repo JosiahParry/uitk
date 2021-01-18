@@ -30,3 +30,8 @@ Data describing the city are special because they all reference the same set of 
 - Continue working on the development of your latent constructs and any related unit-level variables. 
 - Create a map of at least one of these variables. 
 - Make sure to use the map as a way to reveal the distribution of this variable across the city and to further our understanding of the urban landscape.
+
+
+## Looking forward
+
+Second [city walk](./city-walk-2.html) due next Friday. 

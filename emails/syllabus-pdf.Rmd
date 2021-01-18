@@ -1,15 +1,113 @@
 ---
-title: "Syllabus"
+title: "SPPUA 5262: Big Data for Cities Syllabus"
+author: "Josiah Parry"
+output: pdf_document
+header-includes:
+   - \usepackage[default]{sourcesanspro}
+   - \usepackage[T1]{fontenc}
+mainfont: SourceSansPro
 ---
+
+```{css, echo=FALSE}
+
+/* base variables */
+
+/* Edit the CSS properties in this file to create a custom
+   Distill theme. Only edit values in the right column
+   for each row; values shown are the CSS defaults.
+   To return any property to the default,
+   you may set its value to: unset
+   All rows must end with a semi-colon.                      */
+
+/* Optional: embed custom fonts here with `@import`          */
+/* This must remain at the top of this file.                 */
+
+
+
+html {
+  /*-- Main font sizes --*/
+  --title-size:      50px;
+  --body-size:       1.06rem;
+  --code-size:       14px;
+  --aside-size:      12px;
+  --fig-cap-size:    13px;
+  /*-- Main font colors --*/
+  --title-color:     #000000;
+  --header-color:    rgba(0, 0, 0, 0.8);
+  --body-color:      rgba(0, 0, 0, 0.8);
+  --aside-color:     rgba(0, 0, 0, 0.6);
+  --fig-cap-color:   rgba(0, 0, 0, 0.6);
+  /*-- Specify custom fonts ~~~ must be imported above   --*/
+  --heading-font:    sans-serif;
+  --mono-font:       monospace;
+  --body-font:       sans-serif;
+  --navbar-font:     sans-serif;  /* websites + blogs only */
+}
+
+# 
+# /*-- WEBSITE HEADER + FOOTER --*/
+# /* These properties only apply to Distill sites and blogs  */
+# 
+# .distill-site-header {
+#   --title-size:       18px;
+#   --text-color:       rgba(255, 255, 255, 0.8);
+#   --text-size:        15px;
+#   --hover-color:      white;
+#   --bkgd-color:       #0F2E3D;
+# }
+# 
+# .distill-site-footer {
+#   --text-color:       rgba(255, 255, 255, 0.8);
+#   --text-size:        15px;
+#   --hover-color:      white;
+#   --bkgd-color:       #0F2E3D;
+# }
+# 
+# /*-- ARTICLE METADATA --*/
+# d-byline {
+#   --heading-size:    0.6rem;
+#   --heading-color:   rgba(0, 0, 0, 0.5);
+#   --body-size:       0.8rem;
+#   --body-color:      rgba(0, 0, 0, 0.8);
+# }
+# 
+# /*-- ARTICLE TABLE OF CONTENTS --*/
+# .d-contents {
+#   --heading-size:    18px;
+#   --contents-size:   13px;
+# }
+# 
+# /*-- ARTICLE APPENDIX --*/
+# d-appendix {
+#   --heading-size:    15px;
+#   --heading-color:   rgba(0, 0, 0, 0.65);
+#   --text-size:       0.8em;
+#   --text-color:      rgba(0, 0, 0, 0.5);
+# }
+# /*-- Additional custom styles --*/
+# /* Add any additional CSS rules below                      */
+# .distill-site-header {
+#   background-color: black;
+# }
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  color: #c00;
+}
+
+
+```
 
 
 - **Instructor**: Josiah Parry (j.parry@northeastern.edu)
-  - [About me](./your-instructor.html)
 - **Course Meets**: Thursdays 15:00-16:00 EST (3pm - 4pm)
-- **Texts**:
+- **Required Texts**:
   - R for Everyone by Jared P. Lander (available as e-book through NU library)
   - [R for Data Science by Hadley Wickham & Garrett Grolemund](https://r4ds.had.co.nz/) 
-  - [Urban Informatics Toolkit by Josiah Parry](https://ui.josiahparry.com)
+  
 
 ## Course Mission
 
@@ -47,17 +145,18 @@ As such, the value of the course will be more than just the five content-specifi
 - The course curriculum is broken into three parts, moving through the increasingly sophisticated things we can do with data: Information, Measurement, and Discovery.
 - The course will meet weekly remotely through Zoom.
 - It is encouraged that all students attend Zoom meetings. Though you will not be graded on attendance. 
-- We will learn R, an open source statistical programming language.
+- We will learn R, a freeware statistical program.
 - The typical class meeting will be split into four parts: 
-  1. A short lecture on R or related data principles
-  1. Checking in with students on challenges they are facing with R
-  1. Working through examples with students. 
+  1. a discussion of the week's readings;
+  2. workshop on analyzing data in R; 
+  3. short presentations of student work; 
+  4. reflections on service-learning and the social impact of our projects.
 - The R component of the course takes the form of a flipped classroom, meaning that students are expected to do their technical readings and exercises in advance of class. We will use the class time as a workshop to review these skills.
 
 
 ## Data Collaborations:
 
-- We will learn how to use R to visualize, manipulate, and analyze naturally-occurring data by working with data sets from BARI's COVID in Boston database which draws from numerous administrative and internet sources. Each student will be assigned to a collaborative team that will analyze one of these data sets. Teams will be constructed using the preferences expressed by students in the pre-semester survey. 
+- We will learn how to use R to manipulate, analyze, and visualize naturally-occurring data by working with data sets from BARI's COVID in Boston database, which draws from numerous administrative and internet sources. Each student will be assigned to a collaborative team that will analyze one of these data sets. Teams will be constructed using the preferences expressed by students in the pre-semester survey. 
 - The data collaborations will be the basis of weekly assignments and semester projects. All such assignments will be completed by individuals, but students are encouraged to share documents and modified data with each other. Teams will also work together to combine their advances with the data into data products. Major assignments and data products will be shared back with our municipal partners.
 - Data will be made available to students via BARI's Boston Data Portal, hosted by Dataverse. **You will need to create a Dataverse account. See instructions for using Dataverse on Canvas under Course Material - > Technical Support Documents.**
 
@@ -73,36 +172,36 @@ Each week will entail: readings with reading responses; and R-based data explora
 
 - Readings are listed in the syllabus and will be posted on Canvas unless otherwise specified.
 - Each reading assignment will be accompanied by a short reading prompt meant to guide
-reading.
+reading. We will jumpstart class discussion using the Canvas discussion board in advance of class.
   - Students will turn in their response to the reading prompt, which must be at least 250 words, on the Canvas discussion board designated for that week by Thursday at noon.
   - Students will be expected to browse each other's responses as well. It will be required
-to respond to at least one other student's response by Saturday 
+to respond to at least one other student's response by Thursday. 
 - Posts based on the reading prompt are graded out of 2 points: 2 = complete, 1 = incomplete
 (under word count / not entirely relevant to the reading / limited original thought), 0 = not
 turned in. Instructor will award partial points as appropriate.
 - Responses to other students will be graded out of 1 point: 1 = complete, 0 = insufficient.
-There will be no partial credit. These responses do not have a length requirement, but need to comment substantively on the classmate's original post. (For example, "This is a cool idea!" would not be sufficient, but "I really enjoyed the way you framed sensor systems in terms of their ethical challenges," would be.)
+There will be no partial credit. These responses do not have a length requirement, but need to comment substantively on the classmate's original post. (For example, "This is a cool idea!" would not be sufficient, but "I really enjoyed the way you framed sensor systems as in terms of their ethical challenges," would be.)
 
 
 ### R-based Data Exploration
 
 -  R-based data explorations will ask students to practice the skills learned that week in R to analyze their data set. They will be described in detail during each week's in-class workshop and posted on Canvas the week they are assigned.
 -  R-based data explorations will revolve around the data set that you have elected to focus on for the semester. Though students will work in collaborative groups everyone must turn in their own, independent work. Nonetheless, students are encouraged to collaborate with other group members and classmates in all work. These assignments are intended to build towards the midterm and final projects.
--  The write-up should address: Background, or why is this interesting?; Analysis, or what you found out?; and Interpretation, or what does this mean? It should be completed in an Rmarkdown document (`.Rmd`) that intermingles code and prose.
--  R-based data explorations will be submitted twice, first as a Draft and then as a Final product. The drafts are due by Wednesday and the Final submission is due on Sunday at 23:59. They will be submitted on Canvas.
+-  The write-up should address: Background, or why is this interesting?; Analysis, or what you found out?; and Interpretation, or what does this mean? It should be completed in an RNotebook (.rmd) format that intermingles code and narrative.
+-  R-based data explorations will be submitted twice, first as a Draft and then as a Final product.
+
 
 ### City Exploration Assignments
 
 -  There will be one city exploration assignment during each unit of the course in which students will visit a part of the city to which they have never (or rarely) been, either in person or virtually. Each walk will have a different theme, connecting the data curriculum of that unit to the real-world context of the municipality whose data you are analyzing. Guidance on whether to visit places in-person or virtually will be contingent on current circumstances and all city explorations will offer online resources for a virtual option.
 -  For each city exploration assignment, students will complete a 4-5 pg. walk memo. Each walk memo must also include at least two pictures or screen shots from the exploration (not counted towards length).
-<!-- -  Class on the week of city exploration assignments will conclude with a series of 3 min. student presentations describing their city exploration. Each student will give one such presentation during the semester. -->
--  Rubric for city exploration assignments included on the course website and Canvas where assignments are announced.
+-  Class on the week of city exploration assignments will conclude with a series of 3 min. student presentations describing their city exploration. Each student will give one such presentation during the semester.
+-  Rubric for city exploration assignments included on Canvas where assignments are announced.
 
 
 ### Service-Learning Reflections
 
 - At three points during the semester (see schedule), each student will write a 2-3 pg. (double- spaced) memo on: how their work in the course has been influenced by the perspectives of external partners and by exposure to real-world contexts; how those experiences have helped them to better understand the material and their data; and the ways in which the partnership has revealed the real-world utility of the skills. Students are also welcome to explore the limitations of these themes, or ways in which they would like to see them continue to grow.
-  - Given that we will not be working direct external partners this semester and the challenges that remote learning face, please comment on how your analyses could be applied to existing social issues. 
 - Service-learning reflections are graded out of 2 points: 2 = complete, 1 = incomplete (short / not fully engaging the question), 0 = not turned in. Instructor will award partial points as appropriate.
 
 
@@ -122,13 +221,11 @@ data set that anyone working with the data might find informative. It will inclu
 
 ## Grading
 
-
-- 20% Reading Responses and Other Small Assignments. Responses will be considered your participation grade.
+- 10% Participation
+- 10% Reading Responses and Other Small Assignments
 - 10% Walk Memos
 - 15% Week-to-Week R Assignments
-- 15% Information Mid-Term Project: README Document 
-- 15% Measurement Mid-Term Project: Original Measurement 
-- 25% Final Project (Paper and Presentation)
+- 15% Information Mid-Term Project: README Document 15% Measurement Mid-Term Project: Original Measurement 25% Final Project (Paper and Presentation)
 
 
 ## Academic Honesty:
@@ -142,8 +239,7 @@ data set that anyone working with the data might find informative. It will inclu
 
 ### Other Expectations:
 
-- Late assignments will be discounted 10% per day. After a week, they will no longer be accepted. If an assignment was to be posted online in advance of class to stimulate discussion there will be no opportunity for late credit.
+- Late assignments will be discounted 10% per day After a week, they will no longer be accepted. If an assignment was to be posted online in advance of class to stimulate discussion there will be no opportunity for late credit.
 - E-mailed assignments, except in the case of an absence, will be considered 1 day late.
-- Late assignments or absences will only be considered excused in the case of a doctors note
+- Late assignments or absences will only be considered excused in the case of a doctor’s note
 or evidence of an academic conflict.
-- Please contact me at j.parry@northeastern.edu if you think you'll be late on an assignment or have other concerns. 

@@ -22,4 +22,10 @@ The great Sherlock Holmes once said, “It is a capital mistake to theorize befo
 
 ## Assignment
 
-- First City Walk
+- [First City Walk](./city-walk-1.html) due Friday 23:59.
+
+## Looking forward
+
+First [midterm](./midterm-1.html) due next Friday!
+
+

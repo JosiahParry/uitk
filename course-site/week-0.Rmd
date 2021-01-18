@@ -12,7 +12,7 @@ Throughout this course we will use the Statistical Programming Language R for al
 
 To prepare for the course, I would strongly suggest you read the below suggested readings. Additionally, please ensure you do your course preparation listed below prior to next week. All in all, it should take you about 30 minutes. `r emo::ji("smiling face with smiling eyes")`
 
-## Suggested Readings 
+## Readings 
 
 - [Utility and Danger of Big Data ](https://ui.josiahparry.com/the-utility-and-danger-of-big-data.html)
 - [Data in the Municipal Context](https://ui.josiahparry.com/data-in-the-municipal-context.html)

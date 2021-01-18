@@ -1,10 +1,14 @@
 ---
-title: "Syllabus"
+title: "SPPUA 5262 - Big Data for Cities Spring 2021"
+# description: |
+#   A new article created using the Distill format.
+author: Josiah Parry
+date: "`r Sys.Date()`"
+output: pdf_document
 ---
 
 
 - **Instructor**: Josiah Parry (j.parry@northeastern.edu)
-  - [About me](./your-instructor.html)
 - **Course Meets**: Thursdays 15:00-16:00 EST (3pm - 4pm)
 - **Texts**:
   - R for Everyone by Jared P. Lander (available as e-book through NU library)

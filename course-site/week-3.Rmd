@@ -48,8 +48,12 @@ Learning objectives for this module are to:
     - Please make sure to explain why these variables are useful.
 - Describe the contents of these variables using analysis and visualization.
 
-**Skills needed**:
+<!-- **Skills needed**: -->
 
--   mutate()
--   ifelse()
--   case_when()
+<!-- -   mutate() -->
+<!-- -   ifelse() -->
+<!-- -   case_when() -->
+
+## Looking forward
+
+First [city walk](./city-walk-1.html) due next week. 

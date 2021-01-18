@@ -23,10 +23,6 @@ A major criticism of big data and other “naturally occurring” records is tha
 - What is the 'ecometric' approach to big data and how does it solve the problem of ‘measurement’ in urban big data?
 - How does it fit in with BARI's broader vision?
 
-## Service Learning Response 
-
-Now that you’ve completed your midterm, how did the city walk and in-class workshop influence the practical application of your analysis in working with the data? Going forward, what are your goals in this aspect (practical application-wise)?
-
 ## Data Assignment
 
 For this week's data assignment, propose at least one latent construct that you would like to measure with your data set and the geographic level at which you would want to measure it.
@@ -34,3 +30,11 @@ For this week's data assignment, propose at least one latent construct that you 
 In addition, describe how this construct is interesting and at least one manifest variable for measuring it. Use the latent construct modeling notation from this week's lesson presentation to bring it across.
 
 Note: Your manifest variable can be an idea at this point and we can figure out how to code it in R in the coming weeks.
+
+## Assignment 
+
+- [Midterm 1 - README](./midterm-1.html) due Friday 23:59.
+
+## Looking forward
+
+First service learning response due next Friday.

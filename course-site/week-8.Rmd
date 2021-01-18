@@ -19,3 +19,12 @@ As we conclude Unit 2 it is time again to reflect a bit on our use of administra
 
 - How do you find Boyd & Crawford’s ‘provocations’ useful for the field of urban informatics? 
 - Are there particular issues that you think this field does particularly well with and others where it needs to mature?
+
+## Assignment
+
+- [Second City Walk](./city-walk-2.html) due Friday 23:59.
+
+
+## Looking forward
+
+[Midterm 2](./midterm-2.html) due next Friday. 

@@ -1,0 +1,191 @@
+---
+title: "Pre-course Survey"
+output: html_notebook
+---
+
+Note that these questions are taken from Daniel Chen's PhD work on Data Science education. 
+[Source](https://github.com/chendaniely/dissertation-irb/blob/master/irb-20-537-data_science_workshops/survey-01-pre_workshop_self_assessment.pdf)
+
+Welcome to SPPUA 5262 Big Data for Cities! This is a pre-course student self-assessment survey. This survey helps determine learner personas to help me understand how to best teach you all. Additionally, this will aid me in getting a feel for where each of use are starting from. 
+
+## Demographics 
+
+- What is your current occupation/career stage (select all that apply).
+  - Employed part-time
+  - Employed full-time
+  - Student part-time
+  - Student full-time
+- What degree are you enrolled in?
+  - Undergraduate
+  - Graduate
+- What degree program are you in?
+  - Open text
+- What operating system will be on the computer you are using for this course?
+  - Windows
+  - macOS
+  - Linux
+  - Unsure
+- What gender do you most identify with?
+  - Gender variant / non-conforming
+  - Female
+  - Male
+  - Prefer not to say
+  - Prefer to self describe
+- How would you describe your ethnic background? Choose one or more of the following groups. 
+  - American Indian or Alaska Native (Having origins in any of the original peoples of North and South America (including Central America), and who maintains a tribal affiliation or community attachment.)
+  - Asian (Having origins in any of the original peoples of the Far East, Southeast Asia, or the Indian subcontinent including, for example, Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, Indonesia, the Philippine Islands, Thailand, and Vietnam.)
+  - Black or African American (Having origins in any of the Black racial groups of Africa includes Caribbean Islanders and others of African origin.)
+  - Hispanic or Latino(a) (A person of Spanish-speaking origin or ancestry and/or Latin American origin or ancestry – includes Portuguese and Brazilians.)
+  - Native Hawaiian or Other Pacific Islander (Having origins in any of the original peoples of Hawaii, Guam, Samoa, or other Pacific Islands.)
+  - White (Having origins in any of the original peoples of Europe, the Middle East, or North Africa.)
+  - I prefer not to say.
+  - Prefer to self describe
+  
+## Programming Experience 
+
+- In general, which of these best describes your experience with programming?
+  - I have none
+  - I took some programming related class in the past but have not used it since
+  - I have written a few lines now and again
+  - I have written programs for my own use that are a couple of pages long
+  - I have written and maintained larger pieces of software
+  
+- What programming languages have you used in the past? Select all that apply.
+  - VBA (Visual Basic for Applications)
+  - Python
+  - R
+  - Perl
+  - Matlab
+  - Javascript
+  - C
+  - C++
+  - Fortran
+  - Other, please list
+  
+- How familiar are you with interactive programming languages like Python or R?
+  - I do not know what those are
+  - I have heard of them but have never used them before
+  - I have installed it, but have only done simple examples with them
+  - I have written a small program with them before
+  - I use it to automate certain repetitive tasks
+  - I have small side projects that I program in it
+  - I program in them for work
+  
+- How often do you currently use programming languages (R,
+Python, etc.)?
+  - Never
+  - Less than once per year
+  - Several times per year
+  - Monthly
+  - Weekly
+  - Daily
+
+- Which of these best describes how easily you could write a program (in any language) to find the largest number in a list?
+  - I wouldn't know where to start
+  - I could struggle through, but not confident I could do it
+  - I could struggle through by trial and error with a lot of web searches
+  - I could do it quickly with little or no use of external help
+  
+- How often do you currently use a specialized software with a point-and-click graphical user interface on your own (e.g., for statistical analysis: SPSS, SAS, …; for Geospatial analysis: ArcGIS, QGIS, … ; for Genomics analysis: Geneious, …)?
+  - Never
+  - Less than once per year
+  - Several times per year
+  - Monthly
+  - Weekly
+  - Daily
+  
+- How often do you currently use Databases (SQL, Access, etc.)
+  - Never
+  - Less than once per year
+  - Several times per year
+  - Monthly
+  - Weekly
+  - Daily
+
+
+## Data Cleaning and Processing Experience 
+
+- How familiar are you with Microsoft Excel?
+  - I have never used it, or I have tried it but can't really do anything with it.
+  - I have used it as an electronic todo list and planner putting schedules and task deadlines in a single place
+  - I've used it to store datasets and able to calculate basic aggregate values, such as mean and sums
+  - I've used data aggregation, pivot tables, formulas, and plotting feature to understand how my data breaks down.
+  - I've coded up VBA macros and made VLOOKUP calls integrating multiple sheets for a simulation task
+  
+- If you were given a dataset (e.g., Excel file, CSV file) and asked to do some preliminary analysis on it, which of these best describe how easily you can accomplish the task?
+  - I wouldn't know where to start
+  - I could struggle through, but not confident I could do it
+  - I could struggle through by trial and error with a lot of web searches
+  - I could do it quickly with little or no use of external help
+  
+- Are you familiar with the term "tidy data"?  
+  - I have never heard of the term
+  - I have heard of it but don’t remember what it is.
+  - I have some idea of what it is, but am not too clear
+  - I know what it is and could explain what it pertains to
+  
+- Do you know what "long" and "wide" data are?
+  - I have never heard of the term
+  - I have heard of it but don’t remember what it is.
+  - I have some idea of what it is, but am not too clear
+  - I know what it is and could explain what it pertains to
+  
+  
+## Project and Data Management 
+
+- Please rate your level of satisfaction with your current data management and analysis workflow (e.g. how you collect, organize, store and analyze your data).
+  - Very unsatisfied
+  - Unsatisfied
+  - Neutral
+  - Satisfied
+  - Very satisfied
+  - Not sure
+  - Not applicable
+  - Never thought about this
+  
+- Which of the following best describes how do you manage your data and analysis?
+  - I don't do data and/or analysis work
+  - My data and analysis are all in excel files, possibly with multiple sheets.
+  - I work on carefully time-stamped excel files for my version control and analysis
+  - I use some programming language to load in my data sets for analysis, but sometimes modify my original data files when cleaning the data
+  - I hold my original data sacred, and only work on it from another program and save out intermediate and final data projects as separate files
+  - I have a very specific project structure where data and analysis are kept in separate areas and have a version control system (e.g., Git, SVN)
+   - I have version controlled project templates along with build scripts (e.g., Makefile) to reproduce various aspects of the analysis
+   
+## Statistics
+
+-  If you were given a dataset containing 2 cholesterol treatment options (drug and placebo), patients' baseline cholesterol values, and cholesterol values 4 weeks after treatment has started, would you know how to conduct a statistical analysis to see if there is a difference between the 2 groups? Any type of model will suffice.
+  - I wouldn't know where to start
+  - I could struggle through, but not confident I could do it
+  - I could struggle through by trial and error with a lot of web searches
+  - I could do it quickly with little or no use of external help
+  
+- If you were given a dataset containing an individual's smoking status (binary variable) and whether or not they have hypertension (binary variable), would you know how to conduct a statistical analysis to see if smoking has an increased relative risk or odds of hypertension? Any type of model will suffice.
+  - I wouldn't know where to start
+  - I could struggle through, but not confident I could do it
+  - I could struggle through by trial and error with a lot of web searches
+  - I could do it quickly with little or no use of external help
+  
+- If you were given a dataset comparing different treatment methods for cancer patients. Would you know how to conduct an analysis to see which treatment had a higher survival rate of patients?
+  - I wouldn't know where to start
+  - I could struggle through, but not confident I could do it
+  - I could struggle through by trial and error with a lot of web searches
+  - I could do it quickly with little or no use of external help
+  
+- Are you familiar with the term "dummy variable"? It is sometimes also called "one-hot encoding".
+  - I have never heard of the term
+  - I have heard of it but don't remember what it is
+  - I have some idea of what it is, but am not too clear
+  - I know what it is and could explain what it pertains to
+  
+## Course Framing and Motivation
+  
+- Why are you taking this course? 
+  - To learn new skills
+  - To refresh or review my skills
+  - It's a degree requirement
+  - It is an elective and seemed interesting
+  - Other (self-describe)
+- Please share what you most hope to learn from this course.
+- What do you want to know or be able to do after this course that you don't know or cannot do right now? 
+

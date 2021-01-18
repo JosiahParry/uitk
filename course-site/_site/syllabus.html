@@ -104,7 +104,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title"]}},"value":[{"type":"character","attributes":{},"value":["Syllabus"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","output"]}},"value":[{"type":"character","attributes":{},"value":["Syllabus"]},{"type":"character","attributes":{},"value":["pdf_document"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2165,13 +2165,14 @@ Major Assignments
 <ul>
 <li><strong>Instructor</strong>: Josiah Parry (<a href="mailto:j.parry@northeastern.edu" class="email">j.parry@northeastern.edu</a>)
 <ul>
-<li><a href="./your-instructor.html">Bio</a></li>
+<li><a href="./your-instructor.html">About me</a></li>
 </ul></li>
 <li><strong>Course Meets</strong>: Thursdays 15:00-16:00 EST (3pm - 4pm)</li>
-<li><strong>Required Texts</strong>:
+<li><strong>Texts</strong>:
 <ul>
 <li>R for Everyone by Jared P. Lander (available as e-book through NU library)</li>
 <li><a href="https://r4ds.had.co.nz/">R for Data Science by Hadley Wickham &amp; Garrett Grolemund</a></li>
+<li><a href="https://ui.josiahparry.com">Urban Informatics Toolkit by Josiah Parry</a></li>
 </ul></li>
 </ul>
 <h2 id="course-mission">Course Mission</h2>
@@ -2225,19 +2226,18 @@ Major Assignments
 <li>The course curriculum is broken into three parts, moving through the increasingly sophisticated things we can do with data: Information, Measurement, and Discovery.</li>
 <li>The course will meet weekly remotely through Zoom.</li>
 <li>It is encouraged that all students attend Zoom meetings. Though you will not be graded on attendance.</li>
-<li>We will learn R, a freeware statistical program.</li>
+<li>We will learn R, an open source statistical programming language.</li>
 <li>The typical class meeting will be split into four parts:
 <ol type="1">
-<li>a discussion of the week’s readings;</li>
-<li>workshop on analyzing data in R;</li>
-<li>short presentations of student work;</li>
-<li>reflections on service-learning and the social impact of our projects.</li>
+<li>A short lecture on R or related data principles</li>
+<li>Checking in with students on challenges they are facing with R</li>
+<li>Working through examples with students.</li>
 </ol></li>
 <li>The R component of the course takes the form of a flipped classroom, meaning that students are expected to do their technical readings and exercises in advance of class. We will use the class time as a workshop to review these skills.</li>
 </ul>
 <h2 id="data-collaborations">Data Collaborations:</h2>
 <ul>
-<li>We will learn how to use R to manipulate, analyze, and visualize naturally-occurring data by working with data sets from BARI’s COVID in Boston database, which draws from numerous administrative and internet sources. Each student will be assigned to a collaborative team that will analyze one of these data sets. Teams will be constructed using the preferences expressed by students in the pre-semester survey.</li>
+<li>We will learn how to use R to visualize, manipulate, and analyze naturally-occurring data by working with data sets from BARI’s COVID in Boston database which draws from numerous administrative and internet sources. Each student will be assigned to a collaborative team that will analyze one of these data sets. Teams will be constructed using the preferences expressed by students in the pre-semester survey.</li>
 <li>The data collaborations will be the basis of weekly assignments and semester projects. All such assignments will be completed by individuals, but students are encouraged to share documents and modified data with each other. Teams will also work together to combine their advances with the data into data products. Major assignments and data products will be shared back with our municipal partners.</li>
 <li>Data will be made available to students via BARI’s Boston Data Portal, hosted by Dataverse. <strong>You will need to create a Dataverse account. See instructions for using Dataverse on Canvas under Course Material - &gt; Technical Support Documents.</strong></li>
 </ul>
@@ -2247,37 +2247,39 @@ Major Assignments
 <h3 id="reading-responses">Reading Responses</h3>
 <ul>
 <li>Readings are listed in the syllabus and will be posted on Canvas unless otherwise specified.</li>
-<li>Each reading assignment will be accompanied by a short reading prompt meant to guide reading. We will jumpstart class discussion using the Canvas discussion board in advance of class.
+<li>Each reading assignment will be accompanied by a short reading prompt meant to guide reading.
 <ul>
-<li>Students will turn in their response to the reading prompt, which must be at least 250 words, on the Canvas discussion board designated for that week by Tuesday at noon.</li>
-<li>Students will be expected to browse each other’s responses as well. It will be required to respond to at least one other student’s response by class time on Wednesday.</li>
+<li>Students will turn in their response to the reading prompt, which must be at least 250 words, on the Canvas discussion board designated for that week by Thursday at noon.</li>
+<li>Students will be expected to browse each other’s responses as well. It will be required to respond to at least one other student’s response by Saturday</li>
 </ul></li>
 <li>Posts based on the reading prompt are graded out of 2 points: 2 = complete, 1 = incomplete (under word count / not entirely relevant to the reading / limited original thought), 0 = not turned in. Instructor will award partial points as appropriate.</li>
-<li>Responses to other students will be graded out of 1 point: 1 = complete, 0 = insufficient. There will be no partial credit. These responses do not have a length requirement, but need to comment substantively on the classmate’s original post. (For example, “This is a cool idea!” would not be sufficient, but “I really enjoyed the way you framed sensor systems as in terms of their ethical challenges,” would be.)</li>
+<li>Responses to other students will be graded out of 1 point: 1 = complete, 0 = insufficient. There will be no partial credit. These responses do not have a length requirement, but need to comment substantively on the classmate’s original post. (For example, “This is a cool idea!” would not be sufficient, but “I really enjoyed the way you framed sensor systems in terms of their ethical challenges,” would be.)</li>
 </ul>
 <h3 id="r-based-data-exploration">R-based Data Exploration</h3>
 <ul>
 <li>R-based data explorations will ask students to practice the skills learned that week in R to analyze their data set. They will be described in detail during each week’s in-class workshop and posted on Canvas the week they are assigned.</li>
 <li>R-based data explorations will revolve around the data set that you have elected to focus on for the semester. Though students will work in collaborative groups everyone must turn in their own, independent work. Nonetheless, students are encouraged to collaborate with other group members and classmates in all work. These assignments are intended to build towards the midterm and final projects.</li>
-<li>The write-up should address: Background, or why is this interesting?; Analysis, or what you found out?; and Interpretation, or what does this mean? It should be completed in an RNotebook (.rmd) format that intermingles code and narrative.</li>
-<li>R-based data explorations will be submitted twice, first as a Draft and then as a Final product.</li>
+<li>The write-up should address: Background, or why is this interesting?; Analysis, or what you found out?; and Interpretation, or what does this mean? It should be completed in an Rmarkdown document (<code>.Rmd</code>) that intermingles code and prose.</li>
+<li>R-based data explorations will be submitted twice, first as a Draft and then as a Final product. The drafts are due by Wednesday and the Final submission is due on Sunday at 23:59. They will be submitted on Canvas.</li>
 </ul>
 <h3 id="city-exploration-assignments">City Exploration Assignments</h3>
 <ul>
 <li>There will be one city exploration assignment during each unit of the course in which students will visit a part of the city to which they have never (or rarely) been, either in person or virtually. Each walk will have a different theme, connecting the data curriculum of that unit to the real-world context of the municipality whose data you are analyzing. Guidance on whether to visit places in-person or virtually will be contingent on current circumstances and all city explorations will offer online resources for a virtual option.</li>
-<li>For each city exploration assignment, students will complete a 4-5 pg. walk memo. Each walk memo must also include at least two pictures or screen shots from the exploration (not counted towards length).</li>
-<li>Class on the week of city exploration assignments will conclude with a series of 3 min. student presentations describing their city exploration. Each student will give one such presentation during the semester.</li>
-<li>Rubric for city exploration assignments included on Canvas where assignments are announced.</li>
+<li>For each city exploration assignment, students will complete a 4-5 pg. walk memo. Each walk memo must also include at least two pictures or screen shots from the exploration (not counted towards length). <!-- -  Class on the week of city exploration assignments will conclude with a series of 3 min. student presentations describing their city exploration. Each student will give one such presentation during the semester. --></li>
+<li>Rubric for city exploration assignments included on the course website and Canvas where assignments are announced.</li>
 </ul>
 <h3 id="service-learning-reflections">Service-Learning Reflections</h3>
 <ul>
-<li>At three points during the semester (see schedule), each student will write a 2-3 pg. (double- spaced) memo on: how their work in the course has been influenced by the perspectives of external partners and by exposure to real-world contexts; how those experiences have helped them to better understand the material and their data; and the ways in which the partnership has revealed the real-world utility of the skills. Students are also welcome to explore the limitations of these themes, or ways in which they would like to see them continue to grow.</li>
+<li>At three points during the semester (see schedule), each student will write a 2-3 pg. (double- spaced) memo on: how their work in the course has been influenced by the perspectives of external partners and by exposure to real-world contexts; how those experiences have helped them to better understand the material and their data; and the ways in which the partnership has revealed the real-world utility of the skills. Students are also welcome to explore the limitations of these themes, or ways in which they would like to see them continue to grow.
+<ul>
+<li>Given that we will not be working direct external partners this semester and the challenges that remote learning face, please comment on how your analyses could be applied to existing social issues.</li>
+</ul></li>
 <li>Service-learning reflections are graded out of 2 points: 2 = complete, 1 = incomplete (short / not fully engaging the question), 0 = not turned in. Instructor will award partial points as appropriate.</li>
 </ul>
 <h3 id="midterms-and-finals">Midterms and Finals</h3>
 <p>Each section of the course will conclude with a major project. These are:</p>
 <ul>
-<li><strong>Information</strong>: Read-Me Documentation will provide a short series of facts derived from the data set that anyone working with the data might find informative. It will include code for replicating the analyses underlying these facts so that the report might be updated regularly or for subsets of the data.</li>
+<li><strong>Information</strong>: README Documentation will provide a short series of facts derived from the data set that anyone working with the data might find informative. It will include code for replicating the analyses underlying these facts so that the report might be updated regularly or for subsets of the data.</li>
 <li><strong>Measurement</strong>: Original Measurement will describe a novel set of measures that have been derived from your data set, code that can replicate their construction, and a description of their distribution across the city.</li>
 <li><strong>Discovery</strong>: Inform, Measure, and Discover will combine the work from the two midterms with original analyses that utilize the measures and insights you have developed across the semester.</li>
 <li>At each of these junctures collaborative teams will work together to organize and document the additions and modifications they have made to their data set, creating a single data product they will upload to the Boston Data Library.</li>
@@ -2285,11 +2287,12 @@ Major Assignments
 </ul>
 <h2 id="grading">Grading</h2>
 <ul>
-<li>10% Participation</li>
-<li>10% Reading Responses and Other Small Assignments</li>
+<li>20% Reading Responses and Other Small Assignments. Responses will be considered your participation grade.</li>
 <li>10% Walk Memos</li>
 <li>15% Week-to-Week R Assignments</li>
-<li>15% Information Mid-Term Project: Read-Me Document 15% Measurement Mid-Term Project: Original Measurement 25% Final Project (Paper and Presentation)</li>
+<li>15% Information Mid-Term Project: README Document</li>
+<li>15% Measurement Mid-Term Project: Original Measurement</li>
+<li>25% Final Project (Paper and Presentation)</li>
 </ul>
 <h2 id="academic-honesty">Academic Honesty:</h2>
 <ul>
@@ -2301,9 +2304,10 @@ Major Assignments
 </ul>
 <h3 id="other-expectations">Other Expectations:</h3>
 <ul>
-<li>Late assignments will be discounted 10% per day After a week, they will no longer be accepted. If an assignment was to be posted online in advance of class to stimulate discussion there will be no opportunity for late credit.</li>
+<li>Late assignments will be discounted 10% per day. After a week, they will no longer be accepted. If an assignment was to be posted online in advance of class to stimulate discussion there will be no opportunity for late credit.</li>
 <li>E-mailed assignments, except in the case of an absence, will be considered 1 day late.</li>
-<li>Late assignments or absences will only be considered excused in the case of a doctor’s note or evidence of an academic conflict.</li>
+<li>Late assignments or absences will only be considered excused in the case of a doctors note or evidence of an academic conflict.</li>
+<li>Please contact me at <a href="mailto:j.parry@northeastern.edu" class="email">j.parry@northeastern.edu</a> if you think you’ll be late on an assignment or have other concerns.</li>
 </ul>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->

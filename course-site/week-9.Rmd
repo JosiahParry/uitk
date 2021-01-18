@@ -37,3 +37,12 @@ We will also take a look at the Santa Fe's Institute's use of correlation and re
 
 - Run at least one correlation and one regression on your data, and describe the results. The two (or more) analyses should inform each other in some way (e.g., the regression further tests the correlation).
 - Include at least one figure representing the relationship(s).
+
+
+## Assignment 
+
+- [Midterm 2](./midterm-2.html) due Friday 23:59.
+
+## Looking forward 
+
+Second service learning reflection due next Friday.
