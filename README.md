@@ -48,7 +48,8 @@ remotes::install_github("josiahparry/uitk")
     -   [NYC’s Mayor’s Office of Data
         Analytics](http://www1.nyc.gov/site/analytics/index.page)
 -   Technical readings
-    -   Lander: Chapters 1, 2, 4, 5.1, 6
+    -   Tidyverse [style guide](https://style.tidyverse.org/) chapters 1
+        and 2
     -   UITK:
         -   [R as a
             calculator](https://ui.josiahparry.com/r-as-a-calculator.html)
@@ -57,6 +58,7 @@ remotes::install_github("josiahparry/uitk")
             Analysis](https://ui.josiahparry.com/exploratory-visual-analysis.html)
         -   [General Data
             Manipulation](https://ui.josiahparry.com/general-data-manipulation.html)
+    -   Lander: Chapters 1, 2, 4, 5.1, 6
 
 #### Week 2
 
@@ -73,7 +75,9 @@ remotes::install_github("josiahparry/uitk")
         -   [That’s too much
             data](https://ui.josiahparry.com/thats-too-much-data.html)
         -   [The %&gt;%](https://ui.josiahparry.com/the-pipe.html)
-            \#\#\#\# Week 3
+
+#### Week 3
+
 -   Substantive readings
     -   [LinkNYC](https://www.link.nyc/)
     -   [Sidewalk Labs](https://www.sidewalklabs.com/)

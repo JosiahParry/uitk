@@ -1,5 +1,5 @@
 ---
-title: "Week 5 - Latent Constructs"
+title: "Week 5 - Measurment / Latent Constructs"
 ---
 
 ## Overview
@@ -17,6 +17,7 @@ A major criticism of big data and other “naturally occurring” records is tha
 ## Substantive Readings 
 
 - [O'Brien _2018_ The Urban Commons Chapter 2](https://northeastern.instructure.com/courses/65223/files/6696416/download?wrap=1): Through pg. 65 and 85-90 required; summary sections for the rest of the chapter will suffice.
+- [Boston Area Research Initiative](https://cssh.northeastern.edu/bari/)
 
 ### Prompt
 

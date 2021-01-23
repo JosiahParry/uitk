@@ -1,5 +1,5 @@
 ---
-title: "Week 8"
+title: "Week 8 - Provocations for Big Data"
 
 ---
 

@@ -1,3 +1,4 @@
+R/render-distill.R
 ^.Rhistory$
 ^misc$
 ^.*\.Rproj$
@@ -8,3 +9,4 @@
 ^course-site$
 ^README\.Rmd$
 ^README\.md$
+^emails$

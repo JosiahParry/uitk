@@ -2,7 +2,7 @@ Package: uitk
 Type: Package
 Title: A Companion Package for the Urban Informatics Toolkit
 Version: 0.0.9000
-Authora@R:
+Authors@R:
   c(person(given = "Josiah",
            family = "Parry",
            role = c("aut", "cre"),
@@ -18,5 +18,8 @@ Depends:
 Imports: 
     sf,
     readr,
-    learnr
+    learnr,
+    tibble,
+    glue,
+    purrr
 RoxygenNote: 7.1.0
