@@ -26,7 +26,7 @@ h1, h2, h3 {
 
 # Welcome to Big Data for Cities!
 
-My name is Josiah Parry and I'll be you instructor this semester! In this course we will be building the technical foundation for your explorations of the Urban Commons. To this end, we will be getting _very_ familiar with the R programming language and using it to interrogate administrative data to derive new insights about the city. I live and breathe R (this email was written in R!) and I hope to pass on some of that energy to you all. 
+My name is Josiah Parry and I'll be you instructor this semester! In this course we will be building the technical foundation for your explorations of the Urban Commons. To this end, we will be getting _very_ familiar with the R programming language and using it to interrogate administrative data to derive new insights about the city. I live and breathe R and I hope to pass on some of that energy to you all. 
 
 My goal for this semester is to ensure that you all are self sufficient using R and feel comfortable tackling all problems that are tossed you way. This means I want you to learn _how to solve problems_ not just know a few commands here or there. 
 
@@ -42,14 +42,9 @@ In addition to the readings you will have a data assignment. The drafts are due 
 
 ## This week
 
-Please complete the pre-course survey [here](). If you're willing, I'd love to have you reply to this email and let me know
+Please complete the pre-course survey [here](https://docs.google.com/forms/d/e/1FAIpQLSfh7ciTP7omaGBysRDrt9mskov8nXSe2Yx5MYNtZXm76_ARSw/viewform?usp=sf_link) and the dataset preference survey [here](https://docs.google.com/forms/d/e/1FAIpQLSd--mVziig-59MFumWL_CBwnUiSbbrLqMPAqbAr_UykSiBrJQ/viewform?usp=sf_link)
 
-  - your name,
-  - preferred pronouns,
-  - and a fun fact about yourself.
-
-
-Check the [week 0 agenda](https://bd4c.netlify.app/week-0.html). Please follow the links to install R and RStudio, and do the very short readings
+Check the [week 0 agenda](https://bd4c.netlify.app/week-0.html). Please follow the links to install R and RStudio, and do the very short readings.
 
 Our first meeting will be brief. I'll be there to introduce myself, discuss the course, and meet you all! 
 
@@ -58,8 +53,8 @@ If you want to get a headstart (which I recommend), please go ahead and give the
 - Install R
 - Install RStudio 
 
-Have a great week! 
+Have a great week! We'll be using the following zoom link for the duration of the course `https://northeastern.zoom.us/j/99633465085?pwd=ZHZkYzcvZWxlV3ZWYWZ3R1lqa0hGUT09`.  
 
 Talk to you soon :) 
 
-- Josiah 
+\- Josiah 

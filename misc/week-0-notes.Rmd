@@ -1,0 +1,34 @@
+---
+title: "week 0 course meeting notes"
+output: html_notebook
+---
+
+<!-- - Introduce myself  -->
+- Depending on group size ask them to introduce.
+- I'll go over:
+  - who i am:
+    - Former MS UI student
+    - Customer Success at RStudio
+      - work with government customers to improve their data sciecne practice and educate.
+        - lots of webinars
+    - Been doing data science for 6 or 7 years now and #rstats is my passion 
+  - this is big data for cities
+    - the goal of the course is to have you start thinking about the ways in which data interacts with the city as well as build the foundations of your technical toolkit
+    - to that end we'll be doing a whole lot of R programming and this will be what I emphasize. 
+      - I want to make sure that you get a super strong foundation under you so that everything else is easy
+    - this course was created by Dan O'Brien I'll be making my own modifications. 
+  
+  
+Typical Week:
+
+- Two types of reading:
+  - "substantive" which are the basis for discussions 
+  - "technical" these will be focused on R
+    - I'll ask that you do the readings before watching the videos. The videos are slightly out of date
+    - I'd ask that, even if you know another progamming language, to do this all in R. 
+- 
+    
+
+    
+- There is a qualtrics survey in week one of pages
+- resend forms 

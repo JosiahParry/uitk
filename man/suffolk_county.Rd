@@ -5,7 +5,7 @@
 \alias{suffolk_county}
 \title{Suffolk County.}
 \format{
-An sf object with 203 rows and 1 variable `fips` in EPSG:4326.
+An sf object with 203 rows and 1 column `fips` in EPSG:4326.
  \describe{
    \item{fips}{Census tract fips code}
    \item{geometry}{Census tract geometry}
