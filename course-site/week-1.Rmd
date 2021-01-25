@@ -22,7 +22,7 @@ To complement our introduction to R, we will explore the fundamental themes of u
 
 - [Is the Cost of 311 Systems Worth the Price of - Knowing?](http://www.governing.com/topics/urban/gov-311-systems-cost.html)
 - [What a Hundred Million Calls to 311 Reveal about New - York](http://www.wired.com/2010/11/ff_311_new_york/)
-- [How Public Data Can Improve Services and Empower - Communities](https://scholars.org/brief/how-public-data-can-improve-services-and-empower-communit- ies)
+- [How Public Data Can Improve Services and Empower - Communities](https://scholars.org/brief/how-public-data-can-improve-services-and-empower-communities)
 - [NYC's Mayor's Office of Data Analytics](http://www1.nyc.gov/site/analytics/index.page)
 
 ## Technical Readings
