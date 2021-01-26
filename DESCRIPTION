@@ -18,7 +18,6 @@ Depends:
 Imports: 
     sf,
     readr,
-    learnr,
     tibble,
     glue,
     purrr
