@@ -85,26 +85,26 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>PPUA 5262 Big Data For Cities: About the course</title>
+  <title>PPUA 5262 Big Data For Cities: Making your R Markdown Pretty</title>
 
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="PPUA 5262 Big Data For Cities: About the course"/>
+  <meta property="og:title" content="PPUA 5262 Big Data For Cities: Making your R Markdown Pretty"/>
   <meta property="og:type" content="article"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="PPUA 5262 Big Data For Cities"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="PPUA 5262 Big Data For Cities: About the course"/>
+  <meta property="twitter:title" content="PPUA 5262 Big Data For Cities: Making your R Markdown Pretty"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title"]}},"value":[{"type":"character","attributes":{},"value":["About the course"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title"]}},"value":[{"type":"character","attributes":{},"value":["Making your R Markdown Pretty"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2095,7 +2095,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"About the course","authors":[]}
+{"title":"Making your R Markdown Pretty","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2164,7 +2164,7 @@ Reference
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>About the course</h1>
+<h1>Making your R Markdown Pretty</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
 
@@ -2172,8 +2172,48 @@ Reference
 
 
 <div class="d-article">
-<p>The past decade has seen the rapid proliferation of large-scale digital data sets, from cell phone records to social media posts, from calls for government services to digitized historical records. With their unprecedented volume and detail, these new resources have opened up a window through which we can closely examine the behavioral and social dynamics of everyday life, and nowhere is this truer than in urban areas, which have the greatest density of both people and technology. This has given rise to urban informatics, and a renewed opportunity to understand the city, its people, and its neighborhoods, and to develop new policies and programs that improve urban life. Big Data for Cities takes an experiential approach that enables students to contribute to this young field. Given unprecedented times, we will apply our newfound skills to the urgent question of the shifting urban landscape in the age of COVID-19.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<p>R Markdown documents can be customized to your liking and can be made way prettier than the defaults.</p>
+<p>There are number of different themes that you can use out of the box! You can do this by changing your YAML header. The YAML header is the section at the top of your document enclosed by three <code>---</code> on the top and the bottom. You can provide additional metadata to the header in the format of <code>parameter: value</code>. To change the default theme of the <code>html_document</code> output format we can adjust the header to look like the below.</p>
+<pre><code>---
+title: &quot;Super creative title&quot;
+author: &quot;Your name&quot;
+date: The day of course.
+output:
+  html_document:
+    theme: united
+---</code></pre>
+<p>Notice that we’re adding some new lines and indentation to the <code>output</code> parameter. Think of this similarly how you use bulleted list indentation. The indentation is related to the thing above it. In the above example we’re telling <code>output</code> to be an <code>html_document</code>, then further under the html document, we’re specifying a theme.</p>
+<h3 id="bootswatch-themes">Bootswatch themes</h3>
+<p>The themes that R Markdown can use out of the box are called <a href="https://bootswatch.com/"><em>Bootswatch Themes</em></a>. These are some pre-created themes from web designers that can be applied to our document. The values you can pass to the <code>theme</code> parameter are default, <code>cerulean</code>, <code>journal</code>, <code>flatly</code>, <code>darkly</code>, <code>readable</code>, <code>spacelab</code>, <code>united</code>, <code>cosmo</code>, <code>lumen</code>, <code>paper</code>, <code>sandstone</code>, <code>simplex</code>, <code>yeti</code></p>
+<h2 id="creating-a-table-of-contents">Creating a table of contents</h2>
+<p>Similar to how we can modify the theme of a document, we can add a table of contents to help the reader navigate through the document. Under <code>html_document:</code> we can put the value <code>toc: true</code> to create a clickable table of contents at the beginning of the document. This is super helpful for people who want to navigate through your document or figure out where they’d like to start.</p>
+<p>Your YAML would look like</p>
+<pre><code>output:
+  html_document:
+    theme: united
+    toc: true</code></pre>
+<h3 id="floating-table-of-contents">Floating table of contents</h3>
+<p>To be an even fancier R Markdown creator, you can modify your table of contents to be floating. That means while a viewer is reading through your document the table of contents is still there and available to be clicked on and navigated. The modification is rather simple!</p>
+<pre><code>output:
+  html_document:
+    theme: united
+    toc: true
+    toc_float: true</code></pre>
+<h2 id="other-styles">Other styles</h2>
+<p>There are a ton of other packages out there that you can use to modify your R Markdown themes to be really pretty in other ways. A few of my favorites are: <a href="https://rstudio.github.io/distill/">distill</a>, <a href="https://rstudio.github.io/tufte/">tufte</a>, and <a href="https://pagedown.rbind.io/">pagedown</a>.</p>
+<p>Try some of the following:</p>
+<p><code>output: distill::distill_article</code>. This requires the package <code>distill</code>.</p>
+<p><code>output: tufte::tufte_html</code>. This requires the packge <code>tufte</code>.</p>
+<p>This requires the package <code>cleanrmd</code>. The instructions can be found at <a href="https://github.com/gadenbuie/cleanrmd" class="uri">https://github.com/gadenbuie/cleanrmd</a>.</p>
+<pre><code>output: 
+  cleanrmd::html_document_clean:
+    theme: awsm.css</code></pre>
+<p>This requires the package prettydoc.</p>
+<pre><code>output:
+  prettydoc::html_pretty:
+    theme: leonids</code></pre>
+<p>Note that you likely will need to install the related packages. You can do this with <code>install.packages("distill")</code>, etc.</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

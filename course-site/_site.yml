@@ -76,6 +76,10 @@ navbar:
 
     - text: "Syllabus"
       href: syllabus.html
+    - text: "Reference"
+      menu:
+        - text: "Make your Rmd Pretty"
+          href: pretty-rmd.html
 
 output:
   distill::distill_article:
