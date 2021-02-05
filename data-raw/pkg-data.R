@@ -22,4 +22,4 @@ airbnb_reviews <- read_csv("data-raw/airbnb/reviews.csv")
 
 
 usethis::use_data(acs_raw, acs_housing, acs_edu, ecometrics, commute, suffolk_county,
-                  airbnb_hosts, airbnb_listings, airbnb_locations, overwrite = TRUE)
+                  airbnb_hosts, airbnb_listings, airbnb_reviews, airbnb_locations, overwrite = TRUE)
