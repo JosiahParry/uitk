@@ -40,8 +40,12 @@ Try to draw a diagram of the schema that you think enabled the study that you re
 
 ## Data Assignment
 
+Last week you identified a latent construct and the manifest variables that will help you create it. For this week's data assignment create your latent construct and conduct an analysis base on it.  
+
 - Be sure to describe why the construct is interesting and how the specific calculations you are using capture it.
-- As you analyze the content of these new variables, be sure to include at least one dot plot that shows the relationships between two variables at the aggregate level.
+- As you analyze the content of these new variables, be sure to include at least one scatter plot that shows the relationships between two variables (one being your latent construct). 
+
+Please submit your rendered output as well as the original Rmd document. 
 
 ## Assignment - Service Learning Response 
 
@@ -49,3 +53,4 @@ Now that you've completed your midterm, how did the city walk and in-class works
 
 Due Friday at 23:59.
 
+2 - 3 pages double spaced. 

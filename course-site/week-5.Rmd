@@ -8,7 +8,7 @@ A major criticism of big data and other “naturally occurring” records is tha
 
 ### Learning objectives
 
-- Describe the schema associated with a dataset.
+<!--- Describe the schema associated with a dataset.-->
 - Propose aggregate measures from naturally-occurring data that are rooted in concepts of interest.
 - Subset a data frame based on the contents of another data frame.
 - Consider the implications of the data-generation process for the interpretation of aggregate variables.
@@ -34,7 +34,7 @@ Note: Your manifest variable can be an idea at this point and we can figure out 
 
 ## Assignment 
 
-- [Midterm 1 - README](./midterm-1.html) due Friday 23:59.
+- [Midterm 1 - README](./midterm-1.html) due Sunday 23:59.
 
 ## Looking forward
 
