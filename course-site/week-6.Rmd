@@ -36,6 +36,7 @@ Try to draw a diagram of the schema that you think enabled the study that you re
 - UITK:
   - [Summary Statistics](https://ui.josiahparry.com/summary-statistics.html)
   - [Summarizing the tidy way](https://ui.josiahparry.com/summarizing-the-tidy-way.html)
+  - [Multiple data sets](https://ui.josiahparry.com/multiple-data-sets.html)
 - [R4DS - Grouped summarise with summarise()](https://r4ds.had.co.nz/transform.html#grouped-summaries-with-summarise)
 
 ## Data Assignment
