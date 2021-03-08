@@ -10,7 +10,7 @@ Data describing the city are special because they all reference the same set of 
 
 - Describe the differences between spatial data and traditional tabular data
 - Utilize spatial data files in R.
-- Create chloropleths that map the distribution of a metric across the city using ggplot2 and ggmap
+- Create chloropleths that map the distribution of a metric across the city using ggplot2
 - Process and visualize spatial data in R in a variety of additional ways.
 - Trace the origins of spatial analysis in urban informatics.
 - Connect the content of administrative data with real-world events and conditions.
