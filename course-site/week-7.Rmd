@@ -21,6 +21,10 @@ Data describing the city are special because they all reference the same set of 
 - [Palominos & Smith (2020). "Identifying and Characterising Active Travel Corridors for London in Response to COVID-19 Using Shortest Path and Streetspace Analysis."](https://www.ucl.ac.uk/bartlett/casa/sites/bartlett/files/casa_working_paper_222_2.pdf)
 - [The Bartlett Centre for Advanced Spatial Analysis](http://www.bartlett.ucl.ac.uk/casa)
 
+### Prompt
+
+You’ve read about one of the original examples of data mapping in John Snow’s cholera study and about one of the original ‘urban informatics’ programs in CASA. How do you view the evolution of mapping in that time and the role it plays in urban informatics?
+
 ## Technical Readings
 
 - [UITK - Spatial Analysis](https://ui.josiahparry.com/spatial-analysis.html)
