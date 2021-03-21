@@ -2180,27 +2180,42 @@ Reference
 </ul>
 <p>A short paper summarizing the construction of a new aggregate measure and its construction, including:</p>
 <ul>
-<li><p>A textual description of how the measure was constructed, justifying any specific decisions that were made (for example, categorization of case types). This will include:</p>
+<li>A textual description of how the measure was constructed, justifying any specific decisions that were made (for example, categorization of case types). This will include:
 <ul>
 <li>A summary of new variables at the record level (i.e., the original database) that were constructed first as part of the overall calculation of your aggregate measure(s.</li>
 <li>A summary of the new aggregate measure(s) that you’ve calculated and how you have done so.</li>
 </ul></li>
-<li><p>A short description of the new variable’s distribution and/or values. What’s the mean? Where is it highest? Anything else fun or interesting? Etc. This should include at least one tabular visualization (e.g., histogram) and a map, if appropriate.</p></li>
-<li><p>An appendix with an annotated R syntax articulating all steps required to create the measure(s) (should be your portion of the R syntax copy-and-pasted; see below).</p></li>
+<li>A short description of the new variable’s distribution and / or values. For example:
+<ul>
+<li>What’s the mean?</li>
+<li>Where is it highest?</li>
+<li>Anything else fun or interesting? Etc.</li>
+<li>This should include at least one visualization (e.g., histogram, bar plot, density, etc.) and a map, if appropriate.</li>
+</ul></li>
+<li>An appendix with an annotated R syntax articulating all steps required to create the measure(s) (should be your portion of the R script / Markdown; see below).
+<ul>
+<li>There must be no absolute file paths—e.g. <code>"~/file-name"</code> or <code>"C:\\"</code></li>
+</ul></li>
 </ul>
 <p><strong>To review an strong example from a previous year, see attachment above.</strong></p>
 <h2 id="group-component">Group Component</h2>
 <ul>
 <li><a href="static/building-permits-documentation-2018.pdf">Building Permits 2018 Documentation</a></li>
 </ul>
-<p><strong>An updated version of the data set, loaded into the Dataverse, including:</strong></p>
+<p><strong>An updated version of the data set including:</strong></p>
 <ul>
 <li>The record-level file with all new and modified variables included. <strong>This is an update of the record-level file submitted for the first midterm</strong>.</li>
 <li>Any files at the aggregate level (e.g., census tracts) and the variables describing them.</li>
-<li>An updated Data Dictionary that describes the new variables and, if necessary, modifies the description of any already existing variables, as well as variables at the aggregate level of the database. <strong>This is an update of the Data Dictionary submitted for the first midterm</strong>. Please see the example posted above for formatting.</li>
-<li>Annotated R syntax clearly articulating steps for all data cleaning and variable creation. This should be efficient and complete such that the code could be run all at once on raw data to recreate the updated data set. This is an update of the R Syntax submitted for the first midterm.</li>
+<li>An updated Data Dictionary that describes the new variables and, if necessary, modifies the description of any already existing variables, as well as variables at the aggregate level of the database. <strong>This is an update of the Data Dictionary submitted for the first midterm</strong>. Please see the example posted above for formatting.
+<ul>
+<li>If there are aggregate level files, please document these variables under a new heading / separate from the record level files. Avoid ambiguity between the files!</li>
+</ul></li>
+<li>Annotated R script or R Markdown clearly articulating steps for all data cleaning and variable creation. This should be efficient and complete such that the code could be run all at once on raw data to recreate the updated data set. This is an update of the R Syntax submitted for the first midterm.
+<ul>
+<li>There must be no absolute file paths—e.g. <code>"~/file-name"</code> or <code>"C:\\file-name"</code></li>
 </ul>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div></li>
+</ul>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

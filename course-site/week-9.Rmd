@@ -14,7 +14,7 @@ We will also take a look at the Santa Fe's Institute's use of correlation and re
 
 - Describe the premises of inferential statistics
 - Conduct correlations to describe the strength of relationship between two variables
-- Conduct regressions to predict one variable’s distribution in terms of two or more independent - variables
+- Conduct regressions to predict one variable's distribution in terms of two or more independent - variables
 - Represent the linear relationships between variables
 - Evaluate the implications of a universal scaling law for cities
 
@@ -25,7 +25,7 @@ We will also take a look at the Santa Fe's Institute's use of correlation and re
 
 ### Prompt
 
-- "What is it that Bettencourt et al. claim to have discovered? How do you interpret that?"
+- What is it that Bettencourt et al. claim to have discovered? How do you interpret that?
 
 
 ## Technical Readings
@@ -43,6 +43,6 @@ We will also take a look at the Santa Fe's Institute's use of correlation and re
 
 - [Midterm 2](./midterm-2.html) due Friday 23:59.
 
-## Looking forward 
+<!-- ## Looking forward  -->
 
-Second service learning reflection due next Friday.
+<!-- Second service learning reflection due next Friday. -->
