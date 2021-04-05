@@ -2,9 +2,9 @@
 title: "Final Project"
 ---
 
-- [Final Project Example 1](static/Final Project Example 1.pdf)
-- [Final Project Example 2](static/Final Project Example 2.pdf)
-- [Final Project Example 3](static/Final Project Example 3.pdf)
+- [Final Project Example 1](static/Final Project_Example 1.pdf)
+- [Final Project Example 2](static/Final Project_Example 2.pdf)
+- [Final Project Example 3](static/Final Project_Example 3.pdf)
 - [Executive Director's Report](static/2020_4_ExDir-Report_Apr_FINAL.pdf)
 - [Inequities in Navigating a Pandemic](static/Report-1-Inequities-in-Navigating-a-Pandemic-4.pdf)
 
